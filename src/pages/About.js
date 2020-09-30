@@ -24,8 +24,8 @@ function About() {
                             however, he has decided to go back as he braves a new career frontier. Here you will find his
                             many projects, this wonderful short biography, and a page to contact him, complete with a space
                             for leaving your name, email address, and a quick message! Enjoy your stay on his portfolio
-                            page, developed by him from scratch using a little bootstrap CSS and a lot of care and effort.
-                            Stay tuned for more updates featuring more of his work!
+                            page, developed by him from scratch using a little bootstrap CSS, a bit of React to hold it all together,
+                            and a lot of care and effort. Stay tuned for more updates featuring more of his work!
                     </p>
                         <p>
                             Besides coding, Jordan also enjoys making art, ranging from music recording, music production,
@@ -34,17 +34,17 @@ function About() {
                             work with someone who can help create an artistic vision from the ground up.
                     </p>
                         <p>
-                                Check out his <a href="../Assets/pdf/resume 7.0.pdf" target="_blank">resume!</a>
-                            </p>
-                            <p>
-                                Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank">LinkedIn Page!</a>
-                            </p>
-                            <p>
-                                Check out his <a href="https://github.com/JordanT111596" target="_blank">GitHub profile</a>
-                            </p>
-                            <p>
-                                You can contact him via phone at (336) 303-6462, or via email at <a href="mailto: JordanT111596@gmail.com">JordanT111596@gmail.com</a>
-                            </p>
+                            Check out his <a href="../Assets/pdf/resume 7.0.pdf" target="_blank">resume!</a>
+                        </p>
+                        <p>
+                            Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank">LinkedIn Page!</a>
+                        </p>
+                        <p>
+                            Check out his <a href="https://github.com/JordanT111596" target="_blank">GitHub profile</a>
+                        </p>
+                        <p>
+                            You can contact him via phone at (336) 303-6462, or via email at <a href="mailto: JordanT111596@gmail.com">JordanT111596@gmail.com</a>
+                        </p>
                     </div>
                 </div>
                 <div className="col-md-3">
