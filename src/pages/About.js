@@ -33,8 +33,8 @@ function About() {
                             turn all of these talents into creating a wonderful package for any client who would love to
                             work with someone who can help create an artistic vision from the ground up.
                     </p>
-                        {/* <p>
-                                Check out his <a href="Assets/pdf/resume 7.0.pdf" target="_blank">resume!</a>
+                        <p>
+                                Check out his <a href="../Assets/pdf/resume 7.0.pdf" target="_blank">resume!</a>
                             </p>
                             <p>
                                 Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank">LinkedIn Page!</a>
@@ -44,7 +44,7 @@ function About() {
                             </p>
                             <p>
                                 You can contact him via phone at (336) 303-6462, or via email at <a href="mailto: JordanT111596@gmail.com">JordanT111596@gmail.com</a>
-                            </p> */}
+                            </p>
                     </div>
                 </div>
                 <div className="col-md-3">
