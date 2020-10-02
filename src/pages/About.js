@@ -15,7 +15,7 @@ function About() {
                             About Me
                     </h1>
                         {/* Image and bio */}
-                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE5pFSS9yze8Q/profile-displayphoto-shrink_200_200/0?e=1601510400&v=beta&t=I9kR3zE8KxueNjzPfcY4FI2HDcI6X9iqp4jzVISudVU"
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE5pFSS9yze8Q/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=ukSLjAtTWns-1sCHT84h8DKz42pe0fBLru_SuVp6CVY"
                             alt="Jordan Triplett's Graduation Pic" className="float-left mr-3 img-fluid" />
                         <p>
                             Jordan Triplett is a web developer seeking new challenges in new environments as he completes
