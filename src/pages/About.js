@@ -40,7 +40,7 @@ function About() {
                             Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank">LinkedIn Page!</a>
                         </p>
                         <p>
-                            Check out his <a href="https://github.com/JordanT111596" target="_blank">GitHub profile</a>
+                            Check out his <a href="https://github.com/JordanT111596" target="_blank">GitHub profile!</a>
                         </p>
                         <p>
                             You can contact him via phone at (336) 303-6462, or via email at <a href="mailto: JordanT111596@gmail.com">JordanT111596@gmail.com</a>
