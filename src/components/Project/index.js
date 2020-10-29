@@ -7,10 +7,10 @@ function Project(props) {
             <h4>
                 {props.name}
                         </h4>
-            <a href={props.deployLink} target="_blank">
+            <a href={props.deployLink} target="_blank" rel="noopener noreferrer">
                 <img src={props.image} className="img-fluid p-3" alt={props.alt} />
             </a>
-            <a href={props.repoLink} target="_blank">Github Repo</a>
+            <a href={props.repoLink} target="_blank" rel="noopener noreferrer">Github Repo</a>
             <br>
             </br>
             <br>

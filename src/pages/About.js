@@ -15,7 +15,7 @@ function About() {
                             About Me
                     </h1>
                         {/* Image and bio */}
-                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE5pFSS9yze8Q/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=ukSLjAtTWns-1sCHT84h8DKz42pe0fBLru_SuVp6CVY"
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEZfP2hGFI2Cg/profile-displayphoto-shrink_400_400/0?e=1609372800&v=beta&t=C0pbahDHCTc72f6qj302kl0Zwed6OtfqDDZK_sr7UkE"
                             alt="Jordan Triplett's Graduation Pic" className="float-left mr-3 img-fluid" />
                         <p>
                             Jordan Triplett is a web developer seeking new challenges in new environments as he completes
@@ -37,10 +37,10 @@ function About() {
                             Check out his <a href="pdf/resume-7.0.pdf" target="_blank">resume!</a>
                         </p>
                         <p>
-                            Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank">LinkedIn Page!</a>
+                            Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank" rel="noopener noreferrer">LinkedIn Page!</a>
                         </p>
                         <p>
-                            Check out his <a href="https://github.com/JordanT111596" target="_blank">GitHub profile!</a>
+                            Check out his <a href="https://github.com/JordanT111596" target="_blank" rel="noopener noreferrer">GitHub profile!</a>
                         </p>
                         <p>
                             You can contact him via phone at (336) 303-6462, or via email at <a href="mailto: JordanT111596@gmail.com">JordanT111596@gmail.com</a>
