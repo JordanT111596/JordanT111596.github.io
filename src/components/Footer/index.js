@@ -6,7 +6,7 @@ function Footer() {
     // Footer contains centered, light text
     <footer className="footer mt-auto py-3 text-center">
         <div className="container">
-            <span className="text-muted">&copy; Copyright Jordan Triplett 2020</span>
+            <span className="text-muted">&copy; Copyright Jordan Triplett 2021</span>
         </div>
     </footer>
   );

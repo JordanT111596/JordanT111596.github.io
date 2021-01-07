@@ -10,4 +10,4 @@ As specified in the assignment, in this portfolio, you can view my name, a link 
 
 This site can be found at https://jordant111596.github.io/react-portfolio/
 
-![Image of React Portfolio Site](src/Assets/Images/Deployed-About-Me-Screenshot-1.png?raw=true "Image of the Deployed React Portfolio")
+![Image of React Portfolio Site](src/Assets/Images/Deployed-About-Me-Screenshot-2.png?raw=true "Image of the Deployed React Portfolio")
