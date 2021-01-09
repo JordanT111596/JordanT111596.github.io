@@ -8,16 +8,16 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <Link className="navbar-brand" to="/react-portfolio">
+      <Link className="navbar-brand" to="/react-portfolio/">
         Jordan Triplett
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/react-portfolio"
+              to="/react-portfolio/"
               className={
-                window.location.pathname === "/react-portfolio" || window.location.pathname === "/about" || window.location.pathname ==="/" ? "nav-link active" : "nav-link"}
+                window.location.pathname === "/react-portfolio/" || window.location.pathname === "/about" || window.location.pathname ==="/" ? "nav-link active" : "nav-link"}
             >
               About Me
             </Link>
