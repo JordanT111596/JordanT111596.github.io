@@ -1,10 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 function Contact() {
 
+    //Using hooks for all things submitted to the form
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+
+    function handleFormSubmit(e) {
+
+        //prevents the page from refresh
+        e.preventDefault();
+
+        //Creates a link that takes the form info from the state and prefills out an email message, waiting to be sent to me!
+        var link = "mailto:JordanT111596@gmail.com"
+            + "?subject=" + encodeURIComponent("A new message from " + name + " using the React portfolio contact page!")
+            + "&body=" + encodeURIComponent(message + "\n\nPlease contact me back via email at " + email);
+        window.location.href = link;
+    }
 
 
     return (
@@ -20,7 +33,7 @@ function Contact() {
                         <h1 className="text-primary">
                             Contact
                         </h1>
-                        <form>
+                        <form onSubmit={handleFormSubmit}>
                             {/* A box to enter a name */}
                             <div className="form-group">
                                 <label htmlFor="exampleFormControlTextarea1">Name</label>
