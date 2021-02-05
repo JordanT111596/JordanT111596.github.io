@@ -18,8 +18,6 @@ function Contact() {
             + "?subject=" + encodeURIComponent(subject)
             + "&body=" + encodeURIComponent(message + "\n\nPlease contact me back via email at " + email + "\n\nThis message was sent from " + name + " using the React portfolio contact page!");
         window.location.href = link;
-
-        console.log(link);
     }
 
 
