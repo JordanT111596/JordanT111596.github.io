@@ -18,11 +18,13 @@ function About() {
                         <img src="https://media-exp1.licdn.com/dms/image/C5603AQEZfP2hGFI2Cg/profile-displayphoto-shrink_400_400/0/1603929789922?e=1615420800&v=beta&t=ubHOPPzUsQEc4TgrkrlsNkw7IemJy0mqUGDWFewhAr8"
                             alt="Jordan Triplett's Headshot" className="float-left mr-3 img-fluid" />
                         <p>
-                            Jordan Triplett is a web developer seeking new challenges in new environments as he completes
-                            the rigorous yet rewarding full-time full stack coding bootcamp at UNC-Charlotte. Jordan has
-                            already received an undergraduate Bachelor of Science degree in Psychology from the University,
-                            however, he has decided to go back as he braves a new career frontier. Here you will find his
-                            many projects, this wonderful short biography, and a page to contact him, complete with a space
+                            Always seeking a new challenge to overcome, Jordan Triplett is a web developer, but most importantly an impassioned creator 
+                            dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths. Having completed a 
+                            Full Stack Web Development Certificate in 12 weeks after receiving a bachelor’s degree in 4 years from UNCC while holding other jobs, 
+                            Jordan is a tireless worker sharpening his skills in multiple languages (HTML, Java, Javascript, CSS), technologies (MySQL & Sequelize, MongoDB & Mongoose),
+                            and frameworks (React, Express, Node) to pair with his “can-do” attitude, comfortability and prosperity with leadership,
+                            and versatility between both front and back-end coding so he can begin a new and exciting path into the realm of web development.
+                            Here you will find his many projects, this wonderful short biography, and a page to contact him, complete with a space
                             for leaving your name, email address, and a quick message! Enjoy your stay on his portfolio
                             page, developed by him from scratch using a little bootstrap CSS, a bit of React to hold it all together,
                             and a lot of care and effort. Stay tuned for more updates featuring more of his work!
