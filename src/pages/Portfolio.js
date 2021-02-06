@@ -85,8 +85,13 @@ function Portfolio() {
                             deployLink="https://jordant111596.github.io/Work-Day-Scheduler"
                             image={workDaySchedulerDemo} alt="Demo Gif for Work Day Scheduler"
                             repoLink="https://github.com/JordanT111596/Work-Day-Scheduler"
-                            desc=""
-                            tech="" />
+                            desc="A work day scheduler that stores different tasks to complete at between the hours of 9am-5pm to keep your day organized.
+                            When the planner is opened, the current day is displayed at the top of the page. When scrolling down, one can view timeblocks 
+                            for standard business hours. When viewing the timeblocks, each block is color coded to indicate if the time is in the past, 
+                            present, or future. When clicking a timeblock, an event can be entered. When the save button is clicked beside the timeblock, 
+                            the text for the event is saved in local storage. Since the text is saved in local storage, upon refresh, the saved events do 
+                            persist. Now go get your day organized!"
+                            tech="Local Storage, HTML, CSS, Javascript" />
                         {/* Gif and Link to Fitness Tracker */}
                         <Project name="Fitness Tracker"
                             deployLink="https://arcane-waters-87658.herokuapp.com"
