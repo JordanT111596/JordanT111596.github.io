@@ -66,6 +66,16 @@ function Portfolio() {
                             ate for lunch yesterday and you’ve eaten at most of the places close to your office.                 
                             Say hello to your new best friend for picking where you will eat for lunch!"
                             tech="Materialize CSS, Zomato's API, Google Maps API, jQuery, HTML, CSS, Javascript" />
+                        {/* Gif and Link to Fitness Tracker */}
+                        <Project name="Fitness Tracker"
+                            deployLink="https://arcane-waters-87658.herokuapp.com"
+                            image={fitnessTrackerDemo} alt="Demo Gif for Eat-Da-Burger"
+                            repoLink="https://github.com/JordanT111596/Fitness-Tracker"
+                            desc="A workout tracker to log multiple exercises in a workout on a given day and to track the name, type, weight, sets, reps, 
+                            and duration of exercise. If the exercise is a cardio exercise, one can track distance traveled. One can view, create, and track daily workouts. 
+                            One can log multiple exercises in a workout on a given day. One can track the name, type, weight, sets, reps, and duration of exercise. If the 
+                            exercise is a cardio exercise, one can track distance traveled. Now get to those workouts!"
+                            tech="Node.js, Express.js, NoSQL database (MongoDB), Bootstrap CSS, HTML, CSS, Javascript" />
                         {/* Gif and Link to the Weather Dashboard */}
                         <Project name="Weather Dashboard"
                             deployLink="https://jordant111596.github.io/Weather-Dashboard"
@@ -92,13 +102,6 @@ function Portfolio() {
                             the text for the event is saved in local storage. Since the text is saved in local storage, upon refresh, the saved events do 
                             persist. Now go get your day organized!"
                             tech="Local Storage, HTML, CSS, Javascript" />
-                        {/* Gif and Link to Fitness Tracker */}
-                        <Project name="Fitness Tracker"
-                            deployLink="https://arcane-waters-87658.herokuapp.com"
-                            image={fitnessTrackerDemo} alt="Demo Gif for Eat-Da-Burger"
-                            repoLink="https://github.com/JordanT111596/Fitness-Tracker"
-                            desc=""
-                            tech="" />
                     </div>
                 </div>
                 <div className="col-md-2">
