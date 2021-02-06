@@ -6,11 +6,19 @@ function Project(props) {
         <>
             <h4>
                 {props.name}
-                        </h4>
+            </h4>
             <a href={props.deployLink} target="_blank" rel="noopener noreferrer">
                 <img src={props.image} className="img-fluid p-3" alt={props.alt} />
             </a>
-            <a href={props.repoLink} target="_blank" rel="noopener noreferrer">Github Repo</a>
+            <p>
+                <b>Project Description:</b> {props.desc}
+            </p>
+            <p>
+                <b>Technologies Used:</b> {props.tech}
+            </p>
+            <a href={props.repoLink} target="_blank" rel="noopener noreferrer">{props.name} Github Repo</a>
+            <br>
+            </br>
             <br>
             </br>
             <br>
