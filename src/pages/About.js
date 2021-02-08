@@ -16,7 +16,7 @@ function About() {
                     </h1>
                         {/* Image and bio */}
                         <img src="https://media-exp1.licdn.com/dms/image/C5603AQEZfP2hGFI2Cg/profile-displayphoto-shrink_400_400/0/1603929789922?e=1615420800&v=beta&t=ubHOPPzUsQEc4TgrkrlsNkw7IemJy0mqUGDWFewhAr8"
-                            alt="Jordan Triplett's Headshot" className="float-left mr-3 img-fluid" />
+                            alt="Jordan Triplett's Headshot" className="float-left mb-2 mr-3 img-fluid" />
                         <p>
                             Always seeking a new challenge to overcome, Jordan Triplett is a web developer, but most importantly an impassioned creator 
                             dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths. Having completed a 
