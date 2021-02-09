@@ -5,10 +5,10 @@ function About() {
         // Grid Container
         <div className="container w-100 full-page pb-5">
             <div className="row w-100">
-                <div className="col-md-1">
+                <div className="col-2">
                     {/* Empty Space */}
                 </div>
-                <div className="col-md-8 mt-5 card">
+                <div className="col-8 mt-5 card">
                     <div className="card-body">
                         {/* "About Me" titled */}
                         <h1 className="text-primary">
@@ -49,7 +49,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-2">
                     {/* Blank Space */}
                 </div>
             </div>
