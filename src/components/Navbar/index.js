@@ -7,17 +7,20 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
       <Link className="navbar-brand" to="/react-portfolio/">
         Jordan Triplett
-      </Link>
-      <div>
-        <ul className="navbar-nav">
+        </Link>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#globalNavbar" aria-controls="globalNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse w-100 order-3" id="globalNavbar">
+        <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link
               to="/react-portfolio/"
-              className={
-                window.location.pathname === "/react-portfolio/" || window.location.pathname === "/about" || window.location.pathname ==="/" ? "nav-link active" : "nav-link"}
+              className={window.location.pathname === "/react-portfolio/" ? "nav-link active" : "nav-link"}
             >
               About Me
             </Link>
