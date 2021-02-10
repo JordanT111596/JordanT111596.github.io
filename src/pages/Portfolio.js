@@ -11,10 +11,10 @@ function Portfolio() {
         // Grid Container
         <div className="container w-auto full-page pb-5">
             <div className="row w-auto">
-                <div className="col-md-1">
+                <div className="col-1">
                     {/* Empty Space */}
                 </div>
-                <div className="col-md-9 mt-5 card">
+                <div className="col-10 mt-5 card">
                     <div className="card-body">
                         {/* "Portfolio" titled */}
                         <h1 className="text-primary">
@@ -104,7 +104,7 @@ function Portfolio() {
                             tech="Local Storage, HTML, CSS, Javascript" />
                     </div>
                 </div>
-                <div className="col-md-2">
+                <div className="col-1">
                     {/* Blank Space */}
                 </div>
             </div>

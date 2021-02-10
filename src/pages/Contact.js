@@ -25,10 +25,10 @@ function Contact() {
         // Grid Container
         <div className="container w-auto full-page pb-5">
             <div className="row w-auto">
-                <div className="col-md-1">
+                <div className="col-1">
                     {/* Empty Space */}
                 </div>
-                <div className="col-md-8 mt-5 card">
+                <div className="col-10 mt-5 card">
                     <div className="card-body">
                         {/* "Contact" titled */}
                         <h1 className="text-primary">
@@ -63,7 +63,7 @@ function Contact() {
                         </form>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-1">
                     {/* Blank Space */}
                 </div>
             </div>

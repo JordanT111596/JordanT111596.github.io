@@ -5,10 +5,10 @@ function About() {
         // Grid Container
         <div className="container w-100 full-page pb-5">
             <div className="row w-100">
-                <div className="col-2">
+                <div className="col-1">
                     {/* Empty Space */}
                 </div>
-                <div className="col-8 mt-5 card">
+                <div className="col-10 mt-5 card">
                     <div className="card-body">
                         {/* "About Me" titled */}
                         <h1 className="text-primary">
@@ -24,17 +24,19 @@ function About() {
                             Jordan is a tireless worker sharpening his skills in multiple languages (HTML, Java, Javascript, CSS), technologies (MySQL & Sequelize, MongoDB & Mongoose),
                             and frameworks (React, Express, Node) to pair with his “can-do” attitude, comfortability and prosperity with leadership,
                             and versatility between both front and back-end coding so he can begin a new and exciting path into the realm of web development.
+                        </p>
+                        <p>
                             Here you will find his many projects, this wonderful short biography, and a page to contact him, complete with a space
                             for leaving your name, email address, and a quick message! Enjoy your stay on his portfolio
                             page, developed by him from scratch using a little bootstrap CSS, a bit of React to hold it all together,
                             and a lot of care and effort. Stay tuned for more updates featuring more of his work!
-                    </p>
+                        </p>
                         <p>
                             Besides coding, Jordan also enjoys making art, ranging from music recording, music production,
                             audio engineering, to video editing, directing, production, and acting! He's sure that he can
                             turn all of these talents into creating a wonderful package for any client who would love to
                             work with someone who can help create an artistic vision from the ground up.
-                    </p>
+                        </p>
                         <p>
                             Check out his <a href="pdf/resume-8.0.pdf" target="_blank">resume!</a>
                         </p>
@@ -49,7 +51,7 @@ function About() {
                         </p>
                     </div>
                 </div>
-                <div className="col-2">
+                <div className="col-1">
                     {/* Blank Space */}
                 </div>
             </div>
