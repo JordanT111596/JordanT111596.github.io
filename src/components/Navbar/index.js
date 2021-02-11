@@ -12,9 +12,7 @@ function Navbar() {
       <Link className="navbar-brand" to="/react-portfolio/">
         Jordan Triplett
       </Link>
-      <button className="navbar-toggler" type="button" aria-expanded="false" 
-      // onClick={setNavCollapse(!navCollapse)}
-      >
+      <button className="navbar-toggler" type="button" aria-expanded="false" onClick={() => setNavCollapse(!navCollapse)}>
         <span className="navbar-toggler-icon"></span>
       </button>
 
