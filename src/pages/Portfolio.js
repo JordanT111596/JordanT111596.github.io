@@ -41,7 +41,7 @@ function Portfolio() {
                             with other students, study together, and learn more today!"
                             tech="React.js, SCSS, react-bootstrap, react-animations, react-animate-on-scroll, JSX, 
                             Pusher Notifications (WebSockets), MySQL Migrations, Node.js, Express.js, 
-                            Passport (Authentication), Server-Side APIs, HTML, CSS, Javascript" />
+                            Passport (Authentication), Server-Side APIs, RESTful APIs, HTML, CSS, Javascript" />
                         {/* Gif and Link to Pandemic Playlist */}
                         <Project name="Pandemic Playlist"
                             deployLink="https://thawing-beyond-59803.herokuapp.com"
@@ -54,7 +54,7 @@ function Portfolio() {
                             your playlist, your favorites list, or separate by the ones you've seen and the ones
                             you haven't! Want more info about a movie? We've got that for you too!"
                             tech="Bootstrap CSS, Passport (Authentication), MySQL & Sequelize, Express.js, 
-                            Node.js, Handlebars, The Movie DB API, Server-Side APIs, HTML, CSS, Javascript, jQuery" />
+                            Node.js, Handlebars, The Movie DB API, Server-Side APIs, RESTful APIs, HTML, CSS, Javascript, jQuery" />
                         {/* <Gif and Link to the Lunch Randomizer */}
                         <Project name="Lunch Randomizer"
                             deployLink="https://danielgerrald.github.io/Project_1"
