@@ -21,7 +21,7 @@ function About() {
                             Always seeking a new challenge to overcome, Jordan Triplett is a web developer, but most importantly an impassioned creator 
                             dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths. Having completed a 
                             Full Stack Web Development Certificate in 12 weeks after receiving a bachelor’s degree in 4 years from UNCC while holding other jobs, 
-                            Jordan is a tireless worker sharpening his skills in multiple languages (HTML, Java, Javascript, CSS), technologies (MySQL & Sequelize, MongoDB & Mongoose),
+                            Jordan is a tireless worker sharpening his skills in multiple languages (HTML, Java, Javascript, CSS), technologies (MySQL & Sequelize ORM, MongoDB & Mongoose ORM),
                             and frameworks (React, Express, Node) to pair with his “can-do” attitude, comfortability and prosperity with leadership,
                             and versatility between both front and back-end coding so he can begin a new and exciting path into the realm of web development.
                         </p>

@@ -40,7 +40,7 @@ function Portfolio() {
                             university they attend, and a brief bio about themselves. Connect 
                             with other students, study together, and learn more today!"
                             tech="React.js, SCSS, react-bootstrap, react-animations, react-animate-on-scroll, JSX, 
-                            Pusher Notifications (WebSockets), MySQL Migrations, Node.js, Express.js, 
+                            Pusher Notifications (WebSockets), MySQL Migrations, Sequelize ORM, Node.js, Express.js, 
                             Passport (Authentication), Server-Side APIs, RESTful APIs, HTML, CSS, Javascript" />
                         {/* Gif and Link to Pandemic Playlist */}
                         <Project name="Pandemic Playlist"
@@ -53,7 +53,7 @@ function Portfolio() {
                             and password and you can curate your playlist based on age and genre! Add movies to
                             your playlist, your favorites list, or separate by the ones you've seen and the ones
                             you haven't! Want more info about a movie? We've got that for you too!"
-                            tech="Bootstrap CSS, Passport (Authentication), MySQL & Sequelize, Express.js, 
+                            tech="Bootstrap CSS, Passport (Authentication), MySQL & Sequelize ORM, Express.js, 
                             Node.js, Handlebars, The Movie DB API, Server-Side APIs, RESTful APIs, HTML, CSS, Javascript, jQuery" />
                         {/* <Gif and Link to the Lunch Randomizer */}
                         <Project name="Lunch Randomizer"
@@ -75,7 +75,7 @@ function Portfolio() {
                             and duration of exercise. If the exercise is a cardio exercise, one can track distance traveled. One can view, create, and track daily workouts. 
                             One can log multiple exercises in a workout on a given day. One can track the name, type, weight, sets, reps, and duration of exercise. If the 
                             exercise is a cardio exercise, one can track distance traveled. Now get to those workouts!"
-                            tech="Node.js, Express.js, NoSQL database (MongoDB), Bootstrap CSS, HTML, CSS, Javascript" />
+                            tech="Node.js, Express.js, NoSQL database (MongoDB), Mongoose ORM, Bootstrap CSS, HTML, CSS, Javascript" />
                         {/* Gif and Link to the Weather Dashboard */}
                         <Project name="Weather Dashboard"
                             deployLink="https://jordant111596.github.io/Weather-Dashboard"
