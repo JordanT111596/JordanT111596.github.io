@@ -38,7 +38,7 @@ function About() {
                             work with someone who can help create an artistic vision from the ground up.
                         </p>
                         <p>
-                            Check out his <a href="pdf/resume-8.0.pdf" target="_blank">resume!</a>
+                            Check out his <a href="pdf/resume-9.0.pdf" target="_blank">resume!</a>
                         </p>
                         <p>
                             Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank" rel="noopener noreferrer">LinkedIn Page!</a>
