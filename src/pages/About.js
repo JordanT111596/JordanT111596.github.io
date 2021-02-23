@@ -29,7 +29,8 @@ function About() {
                             Here you will find his many projects, this wonderful short biography, and a page to contact him, complete with a space
                             for leaving your name, email address, and a quick message! Enjoy your stay on his portfolio
                             page, developed by him from scratch using a little bootstrap CSS, a bit of React to hold it all together,
-                            and a lot of care and effort. Stay tuned for more updates featuring more of his work!
+                            and a lot of care and effort. Want to check it out for yourself? Check out the <a href="https://github.com/JordanT111596/react-portfolio">repository</a> for this website!
+                            Stay tuned for more updates featuring more of his work!
                         </p>
                         <p>
                             Besides coding, Jordan also enjoys making art, ranging from music recording, music production,
