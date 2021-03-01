@@ -57,9 +57,9 @@ function Portfolio() {
                             Node.js, Handlebars, The Movie DB API, Server-Side APIs, RESTful APIs, HTML, CSS, Javascript, jQuery" />
                         {/* <Gif and Link to the Lunch Randomizer */}
                         <Project name="Lunch Randomizer"
-                            deployLink="https://danielgerrald.github.io/Project_1"
+                            deployLink="https://danielgerrald.github.io/Lunch-Randomizer/"
                             image={ranGen} alt="Demo Gif for Lunch Randomizer"
-                            repoLink="https://github.com/DanielGerrald/Project_1"
+                            repoLink="https://github.com/DanielGerrald/Lunch-Randomizer"
                             desc="It’s 1:00pm and you just finished a hard project at work, you stand up and think to yourself,
                             I am starving. You turn to your buddy and say, let’s get lunch. Then you both stare at each other 
                             cause you know it’s hard to decide on a place you both want as well as taking into account what you 
