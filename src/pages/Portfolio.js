@@ -41,7 +41,7 @@ function Portfolio() {
                             with other students, study together, and learn more today!"
                             tech="React.js, SCSS, react-bootstrap, react-animations, react-animate-on-scroll, JSX, 
                             Pusher Notifications (WebSockets), MySQL Migrations, Sequelize ORM, Node.js, Express.js, 
-                            Passport (Authentication), Server-Side APIs, RESTful APIs, HTML, CSS, Javascript" />
+                            Passport (Authentication), Server-Side APIs, RESTful APIs, HTML, CSS, JavaScript" />
                         {/* Gif and Link to Pandemic Playlist */}
                         <Project name="Pandemic Playlist"
                             deployLink="https://thawing-beyond-59803.herokuapp.com"
@@ -54,7 +54,7 @@ function Portfolio() {
                             your playlist, your favorites list, or separate by the ones you've seen and the ones
                             you haven't! Want more info about a movie? We've got that for you too!"
                             tech="Bootstrap CSS, Passport (Authentication), MySQL & Sequelize ORM, Express.js, 
-                            Node.js, Handlebars, The Movie DB API, Server-Side APIs, RESTful APIs, HTML, CSS, Javascript, jQuery" />
+                            Node.js, Handlebars, The Movie DB API, Server-Side APIs, RESTful APIs, HTML, CSS, JavaScript, jQuery" />
                         {/* <Gif and Link to the Lunch Randomizer */}
                         <Project name="Lunch Randomizer"
                             deployLink="https://danielgerrald.github.io/Lunch-Randomizer/"
@@ -65,7 +65,7 @@ function Portfolio() {
                             cause you know it’s hard to decide on a place you both want as well as taking into account what you 
                             ate for lunch yesterday and you’ve eaten at most of the places close to your office.                 
                             Say hello to your new best friend for picking where you will eat for lunch!"
-                            tech="Materialize CSS, Zomato's API, Google Maps API, jQuery, HTML, CSS, Javascript" />
+                            tech="Materialize CSS, Zomato's API, Google Maps API, jQuery, HTML, CSS, JavaScript" />
                         {/* Gif and Link to Fitness Tracker */}
                         <Project name="Fitness Tracker"
                             deployLink="https://arcane-waters-87658.herokuapp.com"
@@ -75,7 +75,7 @@ function Portfolio() {
                             and duration of exercise. If the exercise is a cardio exercise, one can track distance traveled. One can view, create, and track daily workouts. 
                             One can log multiple exercises in a workout on a given day. One can track the name, type, weight, sets, reps, and duration of exercise. If the 
                             exercise is a cardio exercise, one can track distance traveled. Now get to those workouts!"
-                            tech="Node.js, Express.js, NoSQL database (MongoDB), Mongoose ORM, Bootstrap CSS, HTML, CSS, Javascript" />
+                            tech="Node.js, Express.js, NoSQL database (MongoDB), Mongoose ORM, Bootstrap CSS, HTML, CSS, JavaScript" />
                         {/* Gif and Link to the Weather Dashboard */}
                         <Project name="Weather Dashboard"
                             deployLink="https://jordant111596.github.io/Weather-Dashboard"
@@ -89,7 +89,7 @@ function Portfolio() {
                             an icon representation of weather conditions, the temperature, and the humidity. When clicking on a city from the search history, 
                             that is locally stored in the browser, one is again presented with current and future conditions for that city. When opening the 
                             weather dashboard again, one is presented with the last searched city forecast. Now go see what the weather is where you live!"
-                            tech="Bootstrap CSS, OpenWeatherAPI, Local Storage, HTML, CSS, Javascript" />
+                            tech="Bootstrap CSS, OpenWeatherAPI, Local Storage, HTML, CSS, JavaScript" />
                         {/* Gif and Link to the Work Day Scheduler */}
                         <Project name="Work Day Scheduler"
                             deployLink="https://jordant111596.github.io/Work-Day-Scheduler"
@@ -101,7 +101,7 @@ function Portfolio() {
                             present, or future. When clicking a timeblock, an event can be entered. When the save button is clicked beside the timeblock, 
                             the text for the event is saved in local storage. Since the text is saved in local storage, upon refresh, the saved events do 
                             persist. Now go get your day organized!"
-                            tech="Local Storage, HTML, CSS, Javascript" />
+                            tech="Local Storage, HTML, CSS, JavaScript" />
                     </div>
                 </div>
                 <div className="col-1">
