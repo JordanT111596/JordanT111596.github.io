@@ -9,12 +9,14 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
+      {/* The Navbar running through the router to link to each of my pages in the portfolio */}
       <Navbar />
       <Route exact path="/" component={About} />
       <Route exact path="/about" component={About} />
       <Route exact path="/react-portfolio/" component={About} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
+      {/* My footer is displayed on each page */}
       <Footer />
     </Router>
   );
