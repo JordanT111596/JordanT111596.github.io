@@ -15,7 +15,7 @@ function About() {
                             About Me
                     </h1>
                         {/* Image and bio */}
-                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEZfP2hGFI2Cg/profile-displayphoto-shrink_400_400/0/1603929789922?e=1615420800&v=beta&t=ubHOPPzUsQEc4TgrkrlsNkw7IemJy0mqUGDWFewhAr8"
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEZfP2hGFI2Cg/profile-displayphoto-shrink_400_400/0/1603929789922?e=1622073600&v=beta&t=IdAsGzQs3Xkemrj3-ueLzqa_8_Kcuh5EM20AWCf1KrU"
                             alt="Jordan Triplett's Headshot" className="float-left mb-2 mr-3 img-fluid" />
                         <p>
                             Always seeking a new challenge to overcome, Jordan Triplett is a Front End Web Developer at <a href="https://union.co" target="_blank" rel="noopener noreferrer">Union</a>, 

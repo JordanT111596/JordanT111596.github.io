@@ -3,4 +3,4 @@ In this portfolio using React, you can view my name, a link to my GitHub profile
 
 This site can be found at https://jordant111596.github.io/react-portfolio/
 
-![Image of React Portfolio Site](src/Assets/Images/Deployed-About-Me-Screenshot-4.png?raw=true "Image of the Deployed React Portfolio")
+![Image of React Portfolio Site](src/Assets/Images/Deployed-About-Me.gif?raw=true "Image of the Deployed React Portfolio")
