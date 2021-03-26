@@ -24,8 +24,7 @@ function About() {
                             languages like Java, Javascript, C#, etc., database technologies such as SQL and MongoDB, and frameworks including React. These skills have translated 
                             into successful projects, such as the <a href="https://thawing-beyond-59803.herokuapp.com" target="_blank" rel="noopener noreferrer">Pandemic Playlist</a>, an 
                             application using SQL, Express, and Node to curate movie choices, and <a href="https://floating-journey-44508.herokuapp.com/" target="_blank" rel="noopener noreferrer">StudyMate</a>, 
-                            a SERN stack social media application designed for remote studying. He is looking to pair his “can-do” attitude, comfortability with leadership, and versatility between 
-                            both front and back-end coding so he can begin a new and exciting path into the realm of web development.
+                            a SERN stack social media application designed for remote studying.
                         </p>
                         <p>
                             Here you will find his many projects, this wonderful short biography, and a page to contact him, complete with a space
