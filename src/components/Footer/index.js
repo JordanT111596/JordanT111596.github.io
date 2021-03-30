@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer mt-auto py-3 text-center">
         <div className="container">
           {/* Just my name, the year, and the copyright symbol to be displayed as the footer on all my pages */}
-            <span className="text-muted">&copy; Copyright Jordan Triplett 2021</span>
+            <span className="text-muted">&copy; Copyright Jordan Triplett {new Date().getFullYear()}</span>
         </div>
     </footer>
   );
