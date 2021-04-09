@@ -11,11 +11,11 @@ function About() {
                 <div className="col-10 mt-5 card">
                     <div className="card-body">
                         {/* "About Me" titled */}
-                        <h1 className="text-primary">
+                        <h1 className="text-primary text-center mb-3">
                             About Me
                     </h1>
                         {/* Image and bio */}
-                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQEZfP2hGFI2Cg/profile-displayphoto-shrink_400_400/0/1603929789922?e=1622073600&v=beta&t=IdAsGzQs3Xkemrj3-ueLzqa_8_Kcuh5EM20AWCf1KrU"
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGUZMMpdcKCqQ/profile-displayphoto-shrink_400_400/0/1617978330078?e=1623283200&v=beta&t=FmHYVy2H7duHoVXPNFHdl94X8iEcoRmhBPpBVgr_WEo"
                             alt="Jordan Triplett's Headshot" className="float-left mb-2 mr-3 img-fluid" />
                         <p>
                             Always seeking a new challenge to overcome, Jordan Triplett is a Front End Web Developer at <a href="https://union.co" target="_blank" rel="noopener noreferrer">Union</a>, 

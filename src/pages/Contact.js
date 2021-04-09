@@ -31,7 +31,7 @@ function Contact() {
                 <div className="col-10 mt-5 card">
                     <div className="card-body">
                         {/* "Contact" titled */}
-                        <h1 className="text-primary">
+                        <h1 className="text-primary text-center mb-3">
                             Contact
                         </h1>
                         <form onSubmit={handleFormSubmit}>

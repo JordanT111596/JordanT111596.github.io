@@ -17,7 +17,7 @@ function Portfolio() {
                 <div className="col-10 mt-5 card">
                     <div className="card-body">
                         {/* "Portfolio" titled */}
-                        <h1 className="text-primary">
+                        <h1 className="text-primary text-center mb-1">
                             Portfolio
                         </h1>
                         <br >
