@@ -1,4 +1,10 @@
 import React from "react";
+import headshot from "../Assets/Images/Headshot.png";
+
+const headshotStyle = {
+    height: "20rem",
+    width: "20rem",
+}
 
 function About() {
     return (
@@ -15,8 +21,8 @@ function About() {
                             About Me
                     </h1>
                         {/* Image and bio */}
-                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGUZMMpdcKCqQ/profile-displayphoto-shrink_400_400/0/1617978330078?e=1623283200&v=beta&t=FmHYVy2H7duHoVXPNFHdl94X8iEcoRmhBPpBVgr_WEo"
-                            alt="Jordan Triplett's Headshot" className="float-left mb-2 mr-3 img-fluid" />
+                        <img src={headshot}
+                            alt="Jordan Triplett's Headshot" className="float-left mb-2 mr-3 img-fluid" style={headshotStyle}/>
                         <p>
                             Always seeking a new challenge to overcome, Jordan Triplett is a Front End Web Developer at <a href="https://union.co" target="_blank" rel="noopener noreferrer">Union</a>, 
                             but most importantly an impassioned creator dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths. Having completed a 
