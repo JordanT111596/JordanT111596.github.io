@@ -1,11 +1,6 @@
 import React from "react";
 import headshot from "../Assets/Images/Headshot.png";
 
-const headshotStyle = {
-    height: "20rem",
-    width: "20rem",
-}
-
 function About() {
     return (
         // Grid Container
@@ -22,7 +17,8 @@ function About() {
                     </h1>
                         {/* Image and bio */}
                         <img src={headshot}
-                            alt="Jordan Triplett's Headshot" className="float-left mb-2 mr-3 img-fluid" style={headshotStyle}/>
+                            alt="Jordan Triplett's Headshot" 
+                            className="float-left mb-2 mr-3 img-fluid"/>
                         <p>
                             Always seeking a new challenge to overcome, Jordan Triplett is a Front End Web Developer at <a href="https://union.co" target="_blank" rel="noopener noreferrer">Union</a>, 
                             but most importantly an impassioned creator dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths. Having completed a 
