@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import FormContext from "../contexts/FormContext";
 
 function Contact() {
 
-    //Using hooks for all things submitted to the form
-    const [name, setName] = useState("");
-    const [subject, setSubject] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+    // using context and hooks for form submission in case user clicks off the page
+    const { name, setName, subject, setSubject, email, setEmail, message, setMessage } = useContext(FormContext);
 
     function handleFormSubmit(e) {
 
