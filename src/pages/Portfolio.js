@@ -1,11 +1,12 @@
 import React from "react";
 import Project from "../components/Project";
+import WorkProject from "../components/WorkProject";
 import ranGen from "../Assets/Images/ranGen.gif"
 import pandemicPlaylistDemo from "../Assets/Images/Pandemic-Playlist-Demo.gif"
 import weatherDashboardDemo from "../Assets/Images/Weather-Dashboard-Demo.gif"
-import workDaySchedulerDemo from "../Assets/Images/Work-Day-Scheduler-Demo.gif"
 import studyMateDemo from "../Assets/Images/StudyMate-Demo.gif"
 import fitnessTrackerDemo from "../Assets/Images/Fitness-Tracker-Demo.gif";
+import unionDemo from "../Assets/Images/Union-Demo.gif"
 function Portfolio() {
     return (
         // Grid Container
@@ -90,18 +91,10 @@ function Portfolio() {
                             that is locally stored in the browser, one is again presented with current and future conditions for that city. When opening the 
                             weather dashboard again, one is presented with the last searched city forecast. Now go see what the weather is where you live!"
                             tech="Bootstrap CSS, OpenWeatherAPI, Local Storage, HTML, CSS, JavaScript" />
-                        {/* Gif and Link to the Work Day Scheduler */}
-                        <Project name="Work Day Scheduler"
-                            deployLink="https://jordant111596.github.io/Work-Day-Scheduler"
-                            image={workDaySchedulerDemo} alt="Demo Gif for Work Day Scheduler"
-                            repoLink="https://github.com/JordanT111596/Work-Day-Scheduler"
-                            desc="A work day scheduler that stores different tasks to complete at between the hours of 9am-5pm to keep your day organized.
-                            When the planner is opened, the current day is displayed at the top of the page. When scrolling down, one can view timeblocks 
-                            for standard business hours. When viewing the timeblocks, each block is color coded to indicate if the time is in the past, 
-                            present, or future. When clicking a timeblock, an event can be entered. When the save button is clicked beside the timeblock, 
-                            the text for the event is saved in local storage. Since the text is saved in local storage, upon refresh, the saved events do 
-                            persist. Now go get your day organized!"
-                            tech="Local Storage, HTML, CSS, JavaScript" />
+                        {/* Gif and Link to the Union Website */}
+                        <WorkProject name="Union.co"
+                            siteLink="union.co"
+                            image={unionDemo} />
                     </div>
                 </div>
                 <div className="col-1">
