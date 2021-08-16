@@ -3,7 +3,7 @@ import React from "react";
 // Each block has props passed in for each project in my portfolio
 function Project(props) {
     return (
-        <>
+        <div className="mb-5">
             <h4>
                 {/* The name of the project is displayed at the top */}
                 {props.name}
@@ -22,14 +22,7 @@ function Project(props) {
             </p>
             {/* The link to the github repository is passed in to be a hyperlink */}
             <a href={props.repoLink} target="_blank" rel="noopener noreferrer">{props.name} Github Repo</a>
-            {/* Spacing between each project block */}
-            <br>
-            </br>
-            <br>
-            </br>
-            <br>
-            </br>
-        </>
+        </div>
     );
 }
 
