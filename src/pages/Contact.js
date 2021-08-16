@@ -18,6 +18,18 @@ function Contact() {
         window.location.href = link;
     }
 
+    function resetForm(e) {
+        
+        //prevents the page from refresh
+        e.preventDefault();
+
+        //do the thing
+        setName('');
+        setSubject('');
+        setEmail('');
+        setMessage('');
+    }
+
 
     return (
         // Grid Container
@@ -56,8 +68,14 @@ function Contact() {
                                 <textarea className="form-control" id="message" rows="3" value={message} onChange={e => setMessage(e.target.value)}
                                     placeholder="Message"></textarea>
                             </div>
-                            {/* A button to submit the information */}
-                            <button type="submit" className="btn btn-primary">Submit</button>
+                            <div className="row">
+                                <div className="col-12">
+                                    {/* A button to submit the information */}
+                                    <button type="submit" className="btn btn-primary">Submit</button>
+                                    {/* A button to submit the information */}
+                                    <button type="button" className="btn btn-primary float-right" onClick={resetForm}>Clear</button>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
