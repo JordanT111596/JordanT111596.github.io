@@ -7,6 +7,7 @@ import weatherDashboardDemo from "../Assets/Images/Weather-Dashboard-Demo.gif"
 import studyMateDemo from "../Assets/Images/StudyMate-Demo.gif"
 import fitnessTrackerDemo from "../Assets/Images/Fitness-Tracker-Demo.gif";
 import unionDemo from "../Assets/Images/Union-Demo.gif"
+import crvaDemo from "../Assets/Images/CRVA-Demo.gif"
 function Portfolio() {
     return (
         // Grid Container
@@ -28,14 +29,14 @@ function Portfolio() {
                                 <div className="col-4">          
                                     {/* Gif and Link to the Union Website */}
                                     <WorkProject name="Union.co"
-                                        siteLink="union.co"
+                                        siteLink="https://www.union.co"
                                         image={unionDemo} />
                                 </div>
                                 <div className="col-4">          
                                     {/* Gif and Link to the Union Website */}
-                                    <WorkProject name="Union.co"
-                                        siteLink="union.co"
-                                        image={unionDemo} />
+                                    <WorkProject name="CRVA"
+                                        siteLink="https://www.charlottesgotalot.com/"
+                                        image={crvaDemo} />
                                 </div>
                                 <div className="col-4">          
                                     {/* Gif and Link to the Union Website */}
