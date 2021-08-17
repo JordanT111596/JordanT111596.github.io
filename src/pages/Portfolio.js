@@ -30,19 +30,19 @@ function Portfolio() {
                         </h2>
                         <div className="row">
                             <div className="row">
-                                <div className="col-4">          
+                                <div className="col-12 col-sm-4">          
                                     {/* Gif and Link to the Union Website */}
                                     <WorkProject name="Union.co"
                                         siteLink="https://www.union.co"
                                         image={unionDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-sm-4">          
                                     {/* Gif and Link to the CRVA Website */}
                                     <WorkProject name="CRVA"
                                         siteLink="https://www.charlottesgotalot.com/"
                                         image={crvaDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-sm-4">          
                                     {/* Gif and Link to the Pepsi Website */}
                                     <WorkProject name="Pepsi Cares"
                                         siteLink="https://www.pepsicares.com/"
@@ -50,19 +50,19 @@ function Portfolio() {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-4">          
+                                <div className="col-12 col-sm-4">          
                                         {/* Gif and Link to the Discovery Place Website */}
                                         <WorkProject name="Discovery Place"
                                             siteLink="https://science.discoveryplace.org/"
                                             image={dpDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-sm-4">          
                                     {/* Gif and Link to the Hendrick Motorsports Website */}
                                     <WorkProject name="Hendrick Motorsports"
                                         siteLink="http://www.hendrickmotorsports.com/"
                                         image={hmsDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-sm-4">          
                                     {/* Gif and Link to the Purple Website */}
                                     <WorkProject name="PURPLE"
                                         siteLink="https://www.askforpurple.com/"
