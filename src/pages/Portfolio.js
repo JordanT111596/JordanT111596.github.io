@@ -11,6 +11,7 @@ import crvaDemo from "../Assets/Images/CRVA-Demo.gif"
 import dpDemo from "../Assets/Images/Discovery-Place-Demo.gif"
 import pepsiDemo from "../Assets/Images/Pepsi-Demo.gif"
 import hmsDemo from "../Assets/Images/Hendrick-Motorsports-Demo.gif"
+import purpleDemo from "../Assets/Images/Purple-Demo.gif"
 function Portfolio() {
     return (
         // Grid Container
@@ -62,10 +63,10 @@ function Portfolio() {
                                         image={hmsDemo} />
                                 </div>
                                 <div className="col-4">          
-                                    {/* Gif and Link to the Union Website */}
-                                    <WorkProject name="Union.co"
-                                        siteLink="union.co"
-                                        image={unionDemo} />
+                                    {/* Gif and Link to the Purple Website */}
+                                    <WorkProject name="PURPLE"
+                                        siteLink="https://www.askforpurple.com/"
+                                        image={purpleDemo} />
                                 </div>
                             </div>
                         </div>
