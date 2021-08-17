@@ -10,6 +10,7 @@ import unionDemo from "../Assets/Images/Union-Demo.gif"
 import crvaDemo from "../Assets/Images/CRVA-Demo.gif"
 import dpDemo from "../Assets/Images/Discovery-Place-Demo.gif"
 import pepsiDemo from "../Assets/Images/Pepsi-Demo.gif"
+import hmsDemo from "../Assets/Images/Hendrick-Motorsports-Demo.gif"
 function Portfolio() {
     return (
         // Grid Container
@@ -35,13 +36,13 @@ function Portfolio() {
                                         image={unionDemo} />
                                 </div>
                                 <div className="col-4">          
-                                    {/* Gif and Link to the Union Website */}
+                                    {/* Gif and Link to the CRVA Website */}
                                     <WorkProject name="CRVA"
                                         siteLink="https://www.charlottesgotalot.com/"
                                         image={crvaDemo} />
                                 </div>
                                 <div className="col-4">          
-                                    {/* Gif and Link to the Union Website */}
+                                    {/* Gif and Link to the Pepsi Website */}
                                     <WorkProject name="Pepsi Cares"
                                         siteLink="https://www.pepsicares.com/"
                                         image={pepsiDemo} />
@@ -49,16 +50,16 @@ function Portfolio() {
                             </div>
                             <div className="row">
                                 <div className="col-4">          
-                                        {/* Gif and Link to the Union Website */}
+                                        {/* Gif and Link to the Discovery Place Website */}
                                         <WorkProject name="Discovery Place"
                                             siteLink="https://science.discoveryplace.org/"
                                             image={dpDemo} />
                                 </div>
                                 <div className="col-4">          
-                                    {/* Gif and Link to the Union Website */}
-                                    <WorkProject name="Union.co"
-                                        siteLink="union.co"
-                                        image={unionDemo} />
+                                    {/* Gif and Link to the Hendrick Motorsports Website */}
+                                    <WorkProject name="Hendrick Motorsports"
+                                        siteLink="http://www.hendrickmotorsports.com/"
+                                        image={hmsDemo} />
                                 </div>
                                 <div className="col-4">          
                                     {/* Gif and Link to the Union Website */}
