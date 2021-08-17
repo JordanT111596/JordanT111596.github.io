@@ -9,6 +9,7 @@ import fitnessTrackerDemo from "../Assets/Images/Fitness-Tracker-Demo.gif";
 import unionDemo from "../Assets/Images/Union-Demo.gif"
 import crvaDemo from "../Assets/Images/CRVA-Demo.gif"
 import dpDemo from "../Assets/Images/Discovery-Place-Demo.gif"
+import pepsiDemo from "../Assets/Images/Pepsi-Demo.gif"
 function Portfolio() {
     return (
         // Grid Container
@@ -23,7 +24,7 @@ function Portfolio() {
                         {/* Screenshots of Work Websites */}
                         <h2 className="text-center mb-3">
                             {/* Click on the images to try the apps for yourself! */}
-                            Work Websites
+                            Sites by @Union
                         </h2>
                         <div className="row">
                             <div className="row">
@@ -41,17 +42,17 @@ function Portfolio() {
                                 </div>
                                 <div className="col-4">          
                                     {/* Gif and Link to the Union Website */}
-                                    <WorkProject name="Discovery Place"
-                                        siteLink="https://science.discoveryplace.org/"
-                                        image={dpDemo} />
+                                    <WorkProject name="Pepsi Cares"
+                                        siteLink="https://www.pepsicares.com/"
+                                        image={pepsiDemo} />
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-4">          
-                                    {/* Gif and Link to the Union Website */}
-                                    <WorkProject name="Union.co"
-                                        siteLink="union.co"
-                                        image={unionDemo} />
+                                        {/* Gif and Link to the Union Website */}
+                                        <WorkProject name="Discovery Place"
+                                            siteLink="https://science.discoveryplace.org/"
+                                            image={dpDemo} />
                                 </div>
                                 <div className="col-4">          
                                     {/* Gif and Link to the Union Website */}
