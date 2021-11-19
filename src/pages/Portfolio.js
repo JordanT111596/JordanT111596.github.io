@@ -44,8 +44,8 @@ function Portfolio() {
                                 </div>
                                 <div className="col-12 col-sm-4">          
                                     {/* Gif and Link to the Pepsi Website */}
-                                    <WorkProject name="Pepsi Cares"
-                                        siteLink="https://www.pepsicares.com/"
+                                    <WorkProject name="Pepsi Born in the Carolinas"
+                                        siteLink="https://www.pepsiborninthecarolinas.com/"
                                         image={pepsiDemo} />
                                 </div>
                             </div>
