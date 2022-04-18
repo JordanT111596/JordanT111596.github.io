@@ -20,7 +20,7 @@ function About() {
                             alt="Jordan Triplett's Headshot" 
                             className="float-left mb-2 mr-3 img-fluid"/>
                         <p>
-                            Always seeking a new challenge to overcome, Jordan Triplett is a Front End Web Developer at <a href="https://union.co" target="_blank" rel="noopener noreferrer">Union</a>, 
+                            Always seeking a new challenge to overcome, Jordan Triplett is a Front End Engineer at <a href="https://www.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>, 
                             but most importantly an impassioned creator dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths. Having completed a 
                             Full Stack Web Development Certificate in 12 weeks after receiving a bachelor’s degree in 4 years from the University of North Carolina at Charlotte, 
                             Jordan is a tireless worker sharpening his skills in multiple languages like HTML, CSS/SCSS, JavaScript, PHP/Twig, TypeScript, etc., database technologies such as SQL and MongoDB, 
@@ -42,7 +42,7 @@ function About() {
                             work with someone who can help create an artistic vision from the ground up.
                         </p>
                         <p>
-                            Check out his <a href="pdf/resume-13.0.pdf" target="_blank">resume!</a>
+                            Check out his <a href="pdf/resume-14.0.pdf" target="_blank">resume!</a>
                         </p>
                         <p>
                             Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank" rel="noopener noreferrer">LinkedIn Page!</a>
