@@ -46,30 +46,30 @@ function Contact() {
                         </h1>
                         <form onSubmit={handleFormSubmit}>
                             {/* A box to enter a name */}
-                            <div className="form-group">
+                            <div className="form-group my-4">
                                 <label htmlFor="Name">Name</label>
-                                <input className="form-control" id="name" value={name} onChange={e => setName(e.target.value)}
+                                <input className="form-control my-1" id="name" value={name} onChange={e => setName(e.target.value)}
                                     placeholder="Name"></input>
                             </div>
                             {/* A box to enter a subject */}
-                            <div className="form-group">
+                            <div className="form-group my-4">
                                 <label htmlFor="Subject">Subject</label>
-                                <input className="form-control" id="Subject" value={subject} onChange={e => setSubject(e.target.value)}
+                                <input className="form-control my-1" id="Subject" value={subject} onChange={e => setSubject(e.target.value)}
                                     placeholder="Subject"></input>
                             </div>
                             {/* A box to enter an email address */}
-                            <div className="form-group">
+                            <div className="form-group my-4">
                                 <label htmlFor="Email">Email address</label>
-                                <input type="email" className="form-control" id="email" placeholder="Email@address.com" value={email} onChange={e => setEmail(e.target.value)} />
+                                <input type="email" className="form-control my-1" id="email" placeholder="Email@address.com" value={email} onChange={e => setEmail(e.target.value)} />
                             </div>
                             {/* A box to enter a message */}
-                            <div className="form-group">
+                            <div className="form-group my-4">
                                 <label htmlFor="Message">Message</label>
-                                <textarea className="form-control" id="message" rows="3" value={message} onChange={e => setMessage(e.target.value)}
+                                <textarea className="form-control my-1" id="message" rows="3" value={message} onChange={e => setMessage(e.target.value)}
                                     placeholder="Message"></textarea>
                             </div>
                             <div className="row">
-                                <div className="col-12">
+                                <div className="col-2 d-flex justify-content-between my-4">
                                     {/* A button to submit the information */}
                                     <button type="submit" className="btn btn-primary">Submit</button>
                                     {/* A button to submit the information */}

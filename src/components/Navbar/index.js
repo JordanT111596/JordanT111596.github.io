@@ -7,7 +7,7 @@ function Navbar() {
   const [navCollapse, setNavCollapse] = useState(true);
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-4">
       {/* Tab linking to the home/about me page but with my name displayed */}
       <Link className="navbar-brand" to="/react-portfolio/">
         Jordan Triplett
