@@ -6,12 +6,12 @@ import pandemicPlaylistDemo from "../Assets/Images/Pandemic-Playlist-Demo.gif"
 import weatherDashboardDemo from "../Assets/Images/Weather-Dashboard-Demo.gif"
 import studyMateDemo from "../Assets/Images/StudyMate-Demo.gif"
 import fitnessTrackerDemo from "../Assets/Images/Fitness-Tracker-Demo.gif";
+import webRentalDemo from "../Assets/Images/Fluid-Truck-Web.gif"
+import webFVIPDemo from "../Assets/Images/FVIP-Demo.gif"
+import mobileAppDemo from "../Assets/Images/Fluid-Truck-App.gif"
 import unionDemo from "../Assets/Images/Union-Demo.gif"
 import crvaDemo from "../Assets/Images/CRVA-Demo.gif"
-import dpDemo from "../Assets/Images/Discovery-Place-Demo.gif"
 import pepsiDemo from "../Assets/Images/Pepsi-Demo.gif"
-import hmsDemo from "../Assets/Images/Hendrick-Motorsports-Demo.gif"
-import purpleDemo from "../Assets/Images/Purple-Demo.gif"
 function Portfolio() {
     return (
         // Grid Container
@@ -26,6 +26,31 @@ function Portfolio() {
                         {/* Screenshots of Work Websites */}
                         <h2 className="text-center mb-3">
                             {/* Click on the images to try the apps for yourself! */}
+                            Fluid Truck
+                        </h2>
+                        <div className="row">
+                            <div className="row">
+                                <div className="col-4">          
+                                    {/* Gif and Link to the FT Website */}
+                                    <WorkProject name="Rental Platform (Web App)"
+                                        siteLink="https://www.fluidtruck.com"
+                                        image={webRentalDemo} />
+                                </div>
+                                <div className="col-4">          
+                                    {/* Gif and Link to the FVIP Website */}
+                                    <WorkProject name="FVIP Platform"
+                                        siteLink="https://fvip.fluidtruck.com/"
+                                        image={webFVIPDemo} />
+                                </div>
+                                <div className="col-4">          
+                                    {/* Gif and Link to the Mobile App */}
+                                    <WorkProject name="Rental Platform (Mobile App)"
+                                        siteLink="https://apps.apple.com/us/app/fluid-truck/id1114189236"
+                                        image={mobileAppDemo} />
+                                </div>
+                            </div>
+                        </div>
+                        <h2 className="text-center mb-3">
                             Sites by @Union
                         </h2>
                         <div className="row">
@@ -47,26 +72,6 @@ function Portfolio() {
                                     <WorkProject name="Pepsi Born in the Carolinas"
                                         siteLink="https://www.pepsiborninthecarolinas.com/"
                                         image={pepsiDemo} />
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-4">          
-                                        {/* Gif and Link to the Discovery Place Website */}
-                                        <WorkProject name="Discovery Place"
-                                            siteLink="https://science.discoveryplace.org/"
-                                            image={dpDemo} />
-                                </div>
-                                <div className="col-4">          
-                                    {/* Gif and Link to the Hendrick Motorsports Website */}
-                                    <WorkProject name="Hendrick Motorsports"
-                                        siteLink="http://www.hendrickmotorsports.com/"
-                                        image={hmsDemo} />
-                                </div>
-                                <div className="col-4">          
-                                    {/* Gif and Link to the Purple Website */}
-                                    <WorkProject name="PURPLE"
-                                        siteLink="https://www.askforpurple.com/"
-                                        image={purpleDemo} />
                                 </div>
                             </div>
                         </div>
