@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.367cc157.css",
-    "main.js": "/react-portfolio/static/js/main.09aa81d3.js",
-    "static/media/Fluid-Truck-Web.gif": "/react-portfolio/static/media/Fluid-Truck-Web.30d831825d23da027422.gif",
-    "static/media/Pepsi-Demo.gif": "/react-portfolio/static/media/Pepsi-Demo.f0f8b6e5557907b07893.gif",
-    "static/media/Fluid-Truck-App.gif": "/react-portfolio/static/media/Fluid-Truck-App.02030a88aaf0ebcb542f.gif",
-    "static/media/CRVA-Demo.gif": "/react-portfolio/static/media/CRVA-Demo.7004565e57867e203ed8.gif",
-    "static/media/Union-Demo.gif": "/react-portfolio/static/media/Union-Demo.59d274e041057bfd3848.gif",
-    "static/media/ranGen.gif": "/react-portfolio/static/media/ranGen.f291e0aa0d20d9986a04.gif",
-    "static/media/FVIP-Demo.gif": "/react-portfolio/static/media/FVIP-Demo.3e8374433fafe1c891ef.gif",
-    "static/media/Weather-Dashboard-Demo.gif": "/react-portfolio/static/media/Weather-Dashboard-Demo.e80cd09cbf690eb4c179.gif",
-    "static/media/Headshot.png": "/react-portfolio/static/media/Headshot.3b77af2aadfb55a97a1d.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.367cc157.css.map": "/react-portfolio/static/css/main.367cc157.css.map",
-    "main.09aa81d3.js.map": "/react-portfolio/static/js/main.09aa81d3.js.map"
+    "main.css": "/static/css/main.367cc157.css",
+    "main.js": "/static/js/main.6fac66b7.js",
+    "static/media/Fluid-Truck-Web.gif": "/static/media/Fluid-Truck-Web.30d831825d23da027422.gif",
+    "static/media/Pepsi-Demo.gif": "/static/media/Pepsi-Demo.f0f8b6e5557907b07893.gif",
+    "static/media/Fluid-Truck-App.gif": "/static/media/Fluid-Truck-App.02030a88aaf0ebcb542f.gif",
+    "static/media/CRVA-Demo.gif": "/static/media/CRVA-Demo.7004565e57867e203ed8.gif",
+    "static/media/Union-Demo.gif": "/static/media/Union-Demo.59d274e041057bfd3848.gif",
+    "static/media/ranGen.gif": "/static/media/ranGen.f291e0aa0d20d9986a04.gif",
+    "static/media/FVIP-Demo.gif": "/static/media/FVIP-Demo.3e8374433fafe1c891ef.gif",
+    "static/media/Weather-Dashboard-Demo.gif": "/static/media/Weather-Dashboard-Demo.e80cd09cbf690eb4c179.gif",
+    "static/media/Headshot.png": "/static/media/Headshot.3b77af2aadfb55a97a1d.png",
+    "index.html": "/index.html",
+    "main.367cc157.css.map": "/static/css/main.367cc157.css.map",
+    "main.6fac66b7.js.map": "/static/js/main.6fac66b7.js.map"
   },
   "entrypoints": [
     "static/css/main.367cc157.css",
-    "static/js/main.09aa81d3.js"
+    "static/js/main.6fac66b7.js"
   ]
 }
