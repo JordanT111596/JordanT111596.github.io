@@ -23,8 +23,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<About />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/react-portfolio/" element={<About />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>

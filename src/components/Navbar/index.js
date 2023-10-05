@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-4">
       {/* Tab linking to the home/about me page but with my name displayed */}
-      <Link className="navbar-brand" to="/react-portfolio/">
+      <Link className="navbar-brand" to="/">
         Jordan Triplett
       </Link>
       {/* A button to toggle the navbar to a hamburger on the right side of the page when the screen becomes smaller (e.x. on a mobile phone) */}
@@ -22,9 +22,9 @@ function Navbar() {
           <li className="nav-item">
             {/* Tab linking to the home/about me page */}
             <Link
-              to="/react-portfolio/"
+              to="/"
               // If the current page is the home page, this will change to the active class to highlight the choice, if not, it will be greyed out
-              className={window.location.pathname === "/react-portfolio/" ? "nav-link active" : "nav-link"}
+              className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
             >
               About Me
             </Link>
