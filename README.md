@@ -5,4 +5,4 @@ This site can be found at https://jordant111596.github.io/
 
 ## Demo
 
-![Image of React Portfolio Site](src/Assets/Images/Deployed-About-Me.gif?raw=true "Image of the Deployed React Portfolio")
+![Image of React Portfolio Site](src/Assets/Images/React-Portfolio-Demo.gif?raw=true "Image of the Deployed React Portfolio")
