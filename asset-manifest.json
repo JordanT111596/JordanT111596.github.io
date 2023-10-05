@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.367cc157.css",
-    "main.js": "/static/js/main.6fac66b7.js",
+    "main.js": "/static/js/main.60490157.js",
     "static/media/Fluid-Truck-Web.gif": "/static/media/Fluid-Truck-Web.30d831825d23da027422.gif",
     "static/media/Pepsi-Demo.gif": "/static/media/Pepsi-Demo.f0f8b6e5557907b07893.gif",
     "static/media/Fluid-Truck-App.gif": "/static/media/Fluid-Truck-App.02030a88aaf0ebcb542f.gif",
@@ -13,10 +13,10 @@
     "static/media/Headshot.png": "/static/media/Headshot.3b77af2aadfb55a97a1d.png",
     "index.html": "/index.html",
     "main.367cc157.css.map": "/static/css/main.367cc157.css.map",
-    "main.6fac66b7.js.map": "/static/js/main.6fac66b7.js.map"
+    "main.60490157.js.map": "/static/js/main.60490157.js.map"
   },
   "entrypoints": [
     "static/css/main.367cc157.css",
-    "static/js/main.6fac66b7.js"
+    "static/js/main.60490157.js"
   ]
 }
