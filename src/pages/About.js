@@ -51,15 +51,14 @@ function About() {
                             Having completed a 
                             Full Stack Web Development Certificate in 12 weeks after receiving a bachelor's degree in 4 years from the University of North Carolina at Charlotte, 
                             Jordan is a tireless worker sharpening his skills in multiple languages like HTML, CSS/SCSS, JavaScript, PHP/Twig, TypeScript, etc., database technologies such as SQL and MongoDB, 
-                            and frameworks including React & React Native. These skills have translated into successful projects, such as the <a href="https://thawing-beyond-59803.herokuapp.com" target="_blank" rel="noopener noreferrer">Pandemic Playlist</a>, an 
-                            application using SQL, Express, and Node to curate movie choices, and <a href="https://floating-journey-44508.herokuapp.com/" target="_blank" rel="noopener noreferrer">StudyMate</a>, 
-                            a SERN stack social media application designed for remote studying.
+                            and frameworks including React & React Native, leading him to contribute to large scale projects with <a href="https://union.co/" target="_blank" rel="noopener noreferrer">Union</a>{' '} 
+                            and <a href="https://www.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>.
                         </p>
                         <p>
                             Here you will find his many projects, this wonderful short biography, and a page to contact him, complete with a space
                             for leaving your name, email address, and a quick message! Enjoy your stay on his portfolio
                             page, developed by him from scratch using a little bootstrap CSS, a bit of React to hold it all together,
-                            and a lot of care and effort. Want to check it out for yourself? Check out the <a href="https://github.com/JordanT111596/react-portfolio" target="_blank" rel="noopener noreferrer">repository</a> for this website!
+                            and a lot of care and effort. Want to check it out for yourself? Check out the <a href="https://github.com/JordanT111596/JordanT111596.github.io" target="_blank" rel="noopener noreferrer">repository</a> for this website!
                             Stay tuned for more updates featuring more of his work!
                         </p>
                         <p>
