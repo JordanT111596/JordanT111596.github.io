@@ -25,7 +25,14 @@ function About() {
                             Always seeking a new challenge to overcome, Jordan Triplett is a Front End Engineer in Denver, CO, but most importantly he's an impassioned creator dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths.
                         </p>
                         <p>
-                            In his most recent role as a Software Engineer at <a href="https://www.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>, Jordan:
+                            Having completed a 
+                            Full Stack Web Development Certificate in 12 weeks after receiving a bachelor's degree in 4 years from the University of North Carolina at Charlotte, 
+                            Jordan is a tireless worker sharpening his skills in multiple languages like HTML, CSS/SCSS, JavaScript, PHP/Twig, TypeScript, etc., database technologies such as SQL and MongoDB, 
+                            and frameworks including React & React Native, leading him to contribute to large scale projects with <a href="https://union.co/" target="_blank" rel="noopener noreferrer">Union</a>{' '} 
+                            and <a href="https://www.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>.
+                        </p>
+                        <p>
+                            In his most recent role as a Software Engineer at <a href="https://app.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>, Jordan:
                         </p>
                         <ul>
                             <li>
@@ -47,13 +54,6 @@ function About() {
                                 Regularly released updates to improved the overall user experience of various customer-facing web apps by developing new features, fixing bugs, and making aesthetic enhancements
                             </li>
                         </ul>
-                        <p>
-                            Having completed a 
-                            Full Stack Web Development Certificate in 12 weeks after receiving a bachelor's degree in 4 years from the University of North Carolina at Charlotte, 
-                            Jordan is a tireless worker sharpening his skills in multiple languages like HTML, CSS/SCSS, JavaScript, PHP/Twig, TypeScript, etc., database technologies such as SQL and MongoDB, 
-                            and frameworks including React & React Native, leading him to contribute to large scale projects with <a href="https://union.co/" target="_blank" rel="noopener noreferrer">Union</a>{' '} 
-                            and <a href="https://www.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>.
-                        </p>
                         <p>
                             Here you will find his many projects, this wonderful short biography, and a page to contact him, complete with a space
                             for leaving your name, email address, and a quick message! Enjoy your stay on his portfolio
