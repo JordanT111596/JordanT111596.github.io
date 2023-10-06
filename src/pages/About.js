@@ -26,27 +26,27 @@ function About() {
                         </p>
                         <p>
                             In his most recent role as a Software Engineer at <a href="https://www.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>, Jordan:
-                            <ul>
-                                <li>
-                                    Developed a new React Native mobile app from scratch, working closely with a product team and design team to create a user-friendly and feature-rich app to meet the needs of the customers
-                                </li>
-                                <li>
-                                    Led a committee of engineers to develop and implement comprehensive guidelines, templates, and examples for all Jira item types, improving the quality and efficiency of the technology department
-                                </li>
-                                <li>
-                                    Collaborated with other engineers to maintain a private NPM repository of locally created component libraries, adding and editing components, and releasing updates to internal teams
-                                </li>
-                                <li>
-                                    Partnered with a team of cross-functional engineers to develop a new online delivery system that improved our ability to reach and serve new types of customers
-                                </li>
-                                <li>
-                                    Implemented an automation of the React Native mobile app's build flow using Expo, resulting in a more streamlined and reliable release process for both internal and external users
-                                </li>
-                                <li>
-                                    Regularly released updates to improved the overall user experience of various customer-facing web apps by developing new features, fixing bugs, and making aesthetic enhancements
-                                </li>
-                            </ul>
                         </p>
+                        <ul>
+                            <li>
+                                Developed a new React Native mobile app from scratch, working closely with a product team and design team to create a user-friendly and feature-rich app to meet the needs of the customers
+                            </li>
+                            <li>
+                                Led a committee of engineers to develop and implement comprehensive guidelines, templates, and examples for all Jira item types, improving the quality and efficiency of the technology department
+                            </li>
+                            <li>
+                                Collaborated with other engineers to maintain a private NPM repository of locally created component libraries, adding and editing components, and releasing updates to internal teams
+                            </li>
+                            <li>
+                                Partnered with a team of cross-functional engineers to develop a new online delivery system that improved our ability to reach and serve new types of customers
+                            </li>
+                            <li>
+                                Implemented an automation of the React Native mobile app's build flow using Expo, resulting in a more streamlined and reliable release process for both internal and external users
+                            </li>
+                            <li>
+                                Regularly released updates to improved the overall user experience of various customer-facing web apps by developing new features, fixing bugs, and making aesthetic enhancements
+                            </li>
+                        </ul>
                         <p>
                             Having completed a 
                             Full Stack Web Development Certificate in 12 weeks after receiving a bachelor's degree in 4 years from the University of North Carolina at Charlotte, 
