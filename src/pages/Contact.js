@@ -69,7 +69,7 @@ function Contact() {
                                     placeholder="Message"></textarea>
                             </div>
                             <div className="row">
-                                <div className="col-2 d-flex justify-content-between my-4">
+                                <div className="col-12 col-md-4 col-lg-2 d-flex justify-content-between my-4">
                                     {/* A button to submit the information */}
                                     <button type="submit" className="btn btn-primary">Submit</button>
                                     {/* A button to submit the information */}
