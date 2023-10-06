@@ -10,7 +10,7 @@ function Project(props) {
             </h4>
             {/* The demo gif of the project which is a clickable hyperlink to the deployed project */}
             <a href={props.deployLink} target="_blank" rel="noopener noreferrer">
-                <img src={props.image} className="img-fluid p-3" alt={props.alt} />
+                <img src={props.image} className="img-fluid p-3" alt={props.alt} loading="lazy" />
             </a>
             <p>
                 {/* The description of each project is passed in as a prop */}

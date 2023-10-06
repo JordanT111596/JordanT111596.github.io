@@ -17,7 +17,7 @@ function Portfolio() {
                 <div className="col-12 mt-5 card">
                     <div className="card-body">
                         {/* "Portfolio" titled */}
-                        <h1 className="text-primary text-center mb-5">
+                        <h1 className="text-primary text-center mb-4">
                             Portfolio
                         </h1>
                         {/* Screenshots of Work Websites */}
@@ -26,20 +26,20 @@ function Portfolio() {
                             Fluid Truck
                         </h2>
                         <div className="row">
-                            <div className="row">
-                                <div className="col-4">          
+                            <div className="row text-center">
+                                <div className="col-12 col-md-4">          
                                     {/* Gif and Link to the FT Website */}
                                     <WorkProject name="Rental Platform (Web App)"
                                         siteLink="https://www.fluidtruck.com"
                                         image={webRentalDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-md-4">          
                                     {/* Gif and Link to the FVIP Website */}
                                     <WorkProject name="FVIP Platform"
                                         siteLink="https://fvip.fluidtruck.com/"
                                         image={webFVIPDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-md-4">          
                                     {/* Gif and Link to the Mobile App */}
                                     <WorkProject name="Rental Platform (Mobile App)"
                                         siteLink="https://apps.apple.com/us/app/fluid-truck/id1114189236"
@@ -51,20 +51,20 @@ function Portfolio() {
                             Sites by @Union
                         </h2>
                         <div className="row">
-                            <div className="row">
-                                <div className="col-4">          
+                            <div className="row text-center">
+                                <div className="col-12 col-md-4">          
                                     {/* Gif and Link to the Union Website */}
                                     <WorkProject name="Union.co"
                                         siteLink="https://www.union.co"
                                         image={unionDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-md-4">          
                                     {/* Gif and Link to the CRVA Website */}
                                     <WorkProject name="CRVA"
                                         siteLink="https://www.charlottesgotalot.com/"
                                         image={crvaDemo} />
                                 </div>
-                                <div className="col-4">          
+                                <div className="col-12 col-md-4">          
                                     {/* Gif and Link to the Pepsi Website */}
                                     <WorkProject name="Pepsi Born in the Carolinas"
                                         siteLink="https://www.pepsiborninthecarolinas.com/"
@@ -77,21 +77,21 @@ function Portfolio() {
                             {/* Click on the images to try the apps for yourself! */}
                             Personal Projects
                         </h2>
-                        <div className="row">
-                            <div className="col-6">
+                        <div className="row text-center">
+                            <div className="col-12 col-md-6">
                                 {/* <Gif and Link to the Lunch Randomizer */}
                                 <Project name="Lunch Randomizer"
                                     deployLink="https://danielgerrald.github.io/Lunch-Randomizer/"
                                     image={ranGen} alt="Demo Gif for Lunch Randomizer"
                                     repoLink="https://github.com/DanielGerrald/Lunch-Randomizer"
-                                    desc="It’s 1:00pm and you just finished a hard project at work, you stand up and think to yourself,
-                                    I am starving. You turn to your buddy and say, let’s get lunch. Then you both stare at each other 
-                                    cause you know it’s hard to decide on a place you both want as well as taking into account what you 
-                                    ate for lunch yesterday and you’ve eaten at most of the places close to your office.                 
+                                    desc="It's 1:00pm and you just finished a hard project at work, you stand up and think to yourself,
+                                    I am starving. You turn to your buddy and say, let's get lunch. Then you both stare at each other 
+                                    cause you know it's hard to decide on a place you both want as well as taking into account what you 
+                                    ate for lunch yesterday and you've eaten at most of the places close to your office.                 
                                     Say hello to your new best friend for picking where you will eat for lunch!"
                                     tech="Materialize CSS, Zomato's API, Google Maps API, jQuery, HTML, CSS, JavaScript" />
                             </div>
-                            <div className="col-6">
+                            <div className="col-12 col-md-6">
                             {/* Gif and Link to the Weather Dashboard */}
                                 <Project name="Weather Dashboard"
                                     deployLink="https://jordant111596.github.io/Weather-Dashboard"

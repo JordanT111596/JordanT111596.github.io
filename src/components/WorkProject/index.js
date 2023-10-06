@@ -10,7 +10,7 @@ function WorkProject(props) {
             </h4>
             {/* The demo gif of the website which is a clickable hyperlink to the website */}
             <a href={props.siteLink} target="_blank" rel="noopener noreferrer">
-                <img src={props.image} className="img-fluid p-3" alt={props.name + " Website Gif"} />
+                <img src={props.image} className="img-fluid p-3" alt={props.name + " Website Gif"} loading="lazy" />
             </a>
         </div>
     );
