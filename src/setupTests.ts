@@ -1,2 +1,2 @@
-// Adds DOM matchers like toBeInTheDocument() to Jest: https://github.com/testing-library/jest-dom
-import "@testing-library/jest-dom";
+// Adds DOM matchers like toBeInTheDocument() to Vitest: https://github.com/testing-library/jest-dom
+import "@testing-library/jest-dom/vitest";

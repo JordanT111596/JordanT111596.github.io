@@ -1,36 +1,32 @@
-const mockRender = jest.fn();
-const mockCreateRoot = jest.fn();
+const { mockCreateRoot, mockRender } = vi.hoisted(() => {
+    const render = vi.fn();
+    return { mockRender: render, mockCreateRoot: vi.fn(() => ({ render })) };
+});
 
-jest.mock("react-dom/client", () => ({
-  createRoot: (container: Element) => mockCreateRoot(container),
-}));
+vi.mock("react-dom/client", () => ({ createRoot: mockCreateRoot }));
 
-const loadEntrypoint = (): void => {
-  jest.isolateModules(() => {
-    require("../index");
-  });
+const loadEntrypoint = async (): Promise<void> => {
+    vi.resetModules();
+    await import("../index");
 };
 
 describe("index entrypoint", () => {
-  beforeEach(() => {
-    mockCreateRoot.mockImplementation(() => ({ render: mockRender }));
-    document.body.innerHTML = "";
-  });
+    beforeEach(() => {
+        document.body.innerHTML = "";
+    });
 
-  it("mounts the app into the #root element", () => {
-    document.body.innerHTML = '<div id="root"></div>';
+    it("mounts the app into the #root element", async () => {
+        document.body.innerHTML = '<div id="root"></div>';
 
-    loadEntrypoint();
+        await loadEntrypoint();
 
-    expect(mockCreateRoot).toHaveBeenCalledWith(document.getElementById("root"));
-    expect(mockRender).toHaveBeenCalledTimes(1);
-  });
+        expect(mockCreateRoot).toHaveBeenCalledWith(document.getElementById("root"));
+        expect(mockRender).toHaveBeenCalledTimes(1);
+    });
 
-  it("does nothing when the #root element is missing", () => {
-    loadEntrypoint();
+    it("does nothing when the #root element is missing", async () => {
+        await loadEntrypoint();
 
-    expect(mockCreateRoot).not.toHaveBeenCalled();
-  });
+        expect(mockCreateRoot).not.toHaveBeenCalled();
+    });
 });
-
-export {};
