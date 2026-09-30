@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.367cc157.css",
-    "main.js": "/static/js/main.6fac66b7.js",
-    "static/media/Fluid-Truck-Web.gif": "/static/media/Fluid-Truck-Web.30d831825d23da027422.gif",
-    "static/media/Pepsi-Demo.gif": "/static/media/Pepsi-Demo.f0f8b6e5557907b07893.gif",
-    "static/media/Fluid-Truck-App.gif": "/static/media/Fluid-Truck-App.02030a88aaf0ebcb542f.gif",
-    "static/media/CRVA-Demo.gif": "/static/media/CRVA-Demo.7004565e57867e203ed8.gif",
-    "static/media/Union-Demo.gif": "/static/media/Union-Demo.59d274e041057bfd3848.gif",
-    "static/media/ranGen.gif": "/static/media/ranGen.f291e0aa0d20d9986a04.gif",
-    "static/media/FVIP-Demo.gif": "/static/media/FVIP-Demo.3e8374433fafe1c891ef.gif",
-    "static/media/Weather-Dashboard-Demo.gif": "/static/media/Weather-Dashboard-Demo.e80cd09cbf690eb4c179.gif",
+    "main.css": "/static/css/main.51b1aae8.css",
+    "main.js": "/static/js/main.5ec6c7b5.js",
+    "static/media/CRVA-Demo.mp4": "/static/media/CRVA-Demo.b9fa34f2b10e3c9fe05d.mp4",
+    "static/media/Union-Demo.mp4": "/static/media/Union-Demo.b725660eccfe5b03224d.mp4",
+    "static/media/Pepsi-Demo.mp4": "/static/media/Pepsi-Demo.27c020c8bd03d51e70d9.mp4",
+    "static/media/ranGen.mp4": "/static/media/ranGen.5910677d8a3a3cfb37f4.mp4",
+    "static/media/Fluid-Truck-Web.mp4": "/static/media/Fluid-Truck-Web.ace5ac07d4f9af999026.mp4",
+    "static/media/Weather-Dashboard-Demo.mp4": "/static/media/Weather-Dashboard-Demo.9649194255f9f52d3472.mp4",
+    "static/media/Fluid-Truck-App.mp4": "/static/media/Fluid-Truck-App.50c2e3aa5de2f39c3619.mp4",
     "static/media/Headshot.png": "/static/media/Headshot.3b77af2aadfb55a97a1d.png",
+    "static/media/FVIP-Demo.mp4": "/static/media/FVIP-Demo.7094754dd033cecf907c.mp4",
     "index.html": "/index.html",
-    "main.367cc157.css.map": "/static/css/main.367cc157.css.map",
-    "main.6fac66b7.js.map": "/static/js/main.6fac66b7.js.map"
+    "main.51b1aae8.css.map": "/static/css/main.51b1aae8.css.map",
+    "main.5ec6c7b5.js.map": "/static/js/main.5ec6c7b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.367cc157.css",
-    "static/js/main.6fac66b7.js"
+    "static/css/main.51b1aae8.css",
+    "static/js/main.5ec6c7b5.js"
   ]
 }
