@@ -1,6 +1,6 @@
 {
   "name": "jordan-triplett-portfolio",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://JordanT111596.github.io",
   "private": true,
   "dependencies": {
@@ -11,17 +11,42 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^14.3.1",
-    "gh-pages": "^6.0.0"
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "gh-pages": "^6.0.0",
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "node -e \"require('fs').copyFileSync('build/index.html', 'build/404.html')\"",
-    "predeploy": "npm run build",
+    "predeploy": "npm run typecheck && npm run test:coverage && npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
-    "test": "react-scripts test"
+    "typecheck": "tsc",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll=false"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/**/*.d.ts",
+      "!src/setupTests.ts",
+      "!src/tests/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
   },
   "eslintConfig": {
     "extends": "react-app"
