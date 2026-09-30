@@ -1,88 +1,72 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import headshot from "../Assets/Images/Headshot.png";
+
+const externalLink = { target: "_blank", rel: "noopener noreferrer" };
 
 function About() {
     return (
-        // Grid Container
-        <div className="container w-100 full-page pb-5">
-            <div className="row w-100">
-                <div className="col-1">
-                    {/* Empty Space */}
-                </div>
-                <div className="col-10 mt-5 card">
+        <div className="container pb-5">
+            <div className="row justify-content-center">
+                <div className="col-12 col-lg-10 mt-5 card">
                     <div className="card-body">
-                        {/* "About Me" titled */}
-                        <h1 className="text-primary text-center mb-3">
-                            About Me
-                    </h1>
+                        <h1 className="text-primary text-center mb-3">About Me</h1>
                         <div className="text-center">
-                            {/* Image and bio */}
-                            <img src={headshot}
-                                alt="Jordan Triplett's Headshot" 
-                                className="mb-2 mx-auto img-fluid"/>
+                            <img src={headshot} alt="Jordan Triplett's headshot" className="mb-3 mx-auto img-fluid" />
                         </div>
                         <p>
-                            Always seeking a new challenge to overcome, Jordan Triplett is a Front End Engineer in Denver, CO, but most importantly he's an impassioned creator dedicated to constructing and implementing fresh and bold ideas to turn weaknesses into strengths.
+                            Always seeking a new challenge to overcome, Jordan Triplett is a full-stack Software Development Engineer
+                            at <a href="https://www.workday.com/" {...externalLink}>Workday</a> in Colorado, but most importantly he's an
+                            impassioned creator dedicated to turning fresh and bold ideas into products people use every day. He works
+                            on <a href="https://www.workday.com/en-us/products/platform-product-extensions/workday-everywhere.html" {...externalLink}>Workday Everywhere</a>,
+                            which brings Workday into Slack, Microsoft Teams, Microsoft 365 Copilot, Gemini Enterprise, and more.
                         </p>
                         <p>
-                            Having completed a 
-                            Full Stack Web Development Certificate in 12 weeks after receiving a bachelor's degree in 4 years from the University of North Carolina at Charlotte, 
-                            Jordan is a tireless worker sharpening his skills in multiple languages like HTML, CSS/SCSS, JavaScript, PHP/Twig, TypeScript, etc., database technologies such as SQL and MongoDB, 
-                            and frameworks including React & React Native, leading him to contribute to large scale projects with <a href="https://union.co/" target="_blank" rel="noopener noreferrer">Union</a>{' '} 
-                            and <a href="https://www.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>.
+                            After earning a bachelor's degree from the University of North Carolina at Charlotte and then a Full Stack Web
+                            Development Certificate in 12 weeks, Jordan began his career as a front-end developer, building consumer
+                            sites at <a href="https://union.co/" {...externalLink}>Union</a> and a React Native mobile app
+                            at <a href="https://www.fluidtruck.com/" {...externalLink}>Fluid Truck</a>. Since joining Workday in December 2023,
+                            he has grown into a full-stack role spanning TypeScript, Node.js, React, GraphQL, AWS serverless (Lambda,
+                            DynamoDB, CDK), and Java, and was promoted from Sr. Associate to Software Development Engineer in 2026.
                         </p>
-                        <p>
-                            In his most recent role as a Software Engineer at <a href="https://app.fluidtruck.com/" target="_blank" rel="noopener noreferrer">Fluid Truck</a>, Jordan:
-                        </p>
+                        <p>At Workday, Jordan has:</p>
                         <ul>
                             <li>
-                                Developed a new React Native mobile app from scratch, working closely with a product team and design team to create a user-friendly and feature-rich app to meet the needs of the customers
+                                Led an epic that lets approvers approve or deny Workday business processes directly from Slack and Teams
+                                notifications, from the initial spike and proof of concept through design and delivery
                             </li>
                             <li>
-                                Led a committee of engineers to develop and implement comprehensive guidelines, templates, and examples for all Jira item types, improving the quality and efficiency of the technology department
+                                Built Workday's Microsoft 365 Copilot agent from early access through general availability, including
+                                single sign-on, its data storage and cloud infrastructure, and human-in-the-loop approvals
                             </li>
                             <li>
-                                Collaborated with other engineers to maintain a private NPM repository of locally created component libraries, adding and editing components, and releasing updates to internal teams
+                                Eliminated customer-reported duplicate notifications with fixes across the TypeScript platform and Java backend
                             </li>
                             <li>
-                                Partnered with a team of cross-functional engineers to develop a new online delivery system that improved our ability to reach and serve new types of customers
+                                Owned the Company Holidays and Coworker Lookup epics end to end, from React front ends to a GraphQL data layer
                             </li>
                             <li>
-                                Implemented an automation of the React Native mobile app's build flow using Expo, resulting in a more streamlined and reliable release process for both internal and external users
-                            </li>
-                            <li>
-                                Regularly released updates to improved the overall user experience of various customer-facing web apps by developing new features, fixing bugs, and making aesthetic enhancements
+                                Onboarded and mentored a new engineer from environment setup to his first merged pull request
                             </li>
                         </ul>
                         <p>
-                            Here you will find his many projects, this wonderful short biography, and a page to contact him, complete with a space
-                            for leaving your name, email address, and a quick message! Enjoy your stay on his portfolio
-                            page, developed by him from scratch using a little bootstrap CSS, a bit of React to hold it all together,
-                            and a lot of care and effort. Want to check it out for yourself? Check out the <a href="https://github.com/JordanT111596/JordanT111596.github.io" target="_blank" rel="noopener noreferrer">repository</a> for this website!
-                            Stay tuned for more updates featuring more of his work!
+                            Here you will find his <Link to="/portfolio">projects</Link>, this short biography, and
+                            a <Link to="/contact">page to contact him</Link>, complete with a space for leaving your name, email
+                            address, and a quick message! This site was built from scratch with React and a little Bootstrap. Want to
+                            see how? Check out the <a href="https://github.com/JordanT111596/JordanT111596.github.io" {...externalLink}>repository</a> for
+                            this website!
                         </p>
                         <p>
-                            Besides coding, Jordan also enjoys making art, ranging from music recording, music production,
-                            audio engineering, to video editing, directing, production, and acting! He's sure that he can
-                            turn all of these talents into creating a wonderful package for any client who would love to
-                            work with someone who can help create an artistic vision from the ground up.
+                            Besides coding, Jordan also enjoys making art, ranging from music recording, music production, and audio
+                            engineering to video editing, directing, production, and acting!
                         </p>
-                        <p>
-                            Check out his <a href="pdf/resume-15.0.pdf" target="_blank">resume!</a>
-                        </p>
-                        <p>
-                            Check out his <a href="https://www.linkedin.com/in/jordantriplett/" target="_blank" rel="noopener noreferrer">LinkedIn Page!</a>
-                        </p>
-                        <p>
-                            Check out his <a href="https://github.com/JordanT111596" target="_blank" rel="noopener noreferrer">GitHub profile!</a>
-                        </p>
-                        <p>
-                            You can contact him via email at <a href="mailto: JordanT111596@gmail.com">JordanT111596@gmail.com</a>
-                        </p>
+                        <ul className="list-unstyled">
+                            <li>Check out his <a href={`${process.env.PUBLIC_URL}/pdf/Jordan_Triplett_Resume.pdf`} {...externalLink}>resume!</a></li>
+                            <li>Check out his <a href="https://www.linkedin.com/in/jordantriplett/" {...externalLink}>LinkedIn page!</a></li>
+                            <li>Check out his <a href="https://github.com/JordanT111596" {...externalLink}>GitHub profile!</a></li>
+                            <li>You can contact him via email at <a href="mailto:JordanT111596@gmail.com">JordanT111596@gmail.com</a></li>
+                        </ul>
                     </div>
-                </div>
-                <div className="col-1">
-                    {/* Blank Space */}
                 </div>
             </div>
         </div>

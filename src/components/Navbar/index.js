@@ -1,54 +1,41 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import "./style.css";
+import { Link, NavLink } from "react-router-dom";
+
+const links = [
+  { to: "/", label: "About Me" },
+  { to: "/portfolio", label: "Portfolio" },
+  { to: "/contact", label: "Contact" },
+];
 
 function Navbar() {
-
-  const [navCollapse, setNavCollapse] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
 
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-4">
-      {/* Tab linking to the home/about me page but with my name displayed */}
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/" onClick={() => setNavOpen(false)}>
         Jordan Triplett
       </Link>
-      {/* A button to toggle the navbar to a hamburger on the right side of the page when the screen becomes smaller (e.x. on a mobile phone) */}
-      <button className="navbar-toggler" type="button" aria-expanded="false" onClick={() => setNavCollapse(!navCollapse)}>
+      <button
+        className="navbar-toggler"
+        type="button"
+        aria-controls="navbarLinks"
+        aria-expanded={navOpen}
+        aria-label="Toggle navigation"
+        onClick={() => setNavOpen(!navOpen)}
+      >
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className={(navCollapse ? 'collapse' : '') + ' navbar-collapse w-100 order-3'} id="navbarLinks">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            {/* Tab linking to the home/about me page */}
-            <Link
-              to="/"
-              // If the current page is the home page, this will change to the active class to highlight the choice, if not, it will be greyed out
-              className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
-            >
-              About Me
-            </Link>
-          </li>
-          <li className="nav-item">
-            {/* Tab linking to the portfolio page */}
-            <Link
-              to="/portfolio"
-              // If the current page is the portfolio page, this will change to the active class to highlight the choice, if not, it will be greyed out
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-item">
-            {/* Tab linking to the contact me/email page */}
-            <Link
-              to="/contact"
-              // If the current page is the contact page, this will change to the active class to highlight the choice, if not, it will be greyed out
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </Link>
-          </li>
+      <div className={`collapse navbar-collapse${navOpen ? " show" : ""}`} id="navbarLinks">
+        <ul className="navbar-nav ms-auto">
+          {links.map(({ to, label }) => (
+            <li className="nav-item" key={to}>
+              {/* NavLink applies the "active" class itself, so the highlight follows client-side navigation */}
+              <NavLink to={to} end className="nav-link" onClick={() => setNavOpen(false)}>
+                {label}
+              </NavLink>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

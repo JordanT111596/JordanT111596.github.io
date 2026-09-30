@@ -1,86 +1,53 @@
 import React, { useContext } from "react";
-import FormContext from "../contexts/FormContext";
+import FormContext, { emptyForm } from "../contexts/FormContext";
+
+const fields = [
+    { id: "name", label: "Name", placeholder: "Name" },
+    { id: "subject", label: "Subject", placeholder: "Subject" },
+    { id: "email", label: "Email address", placeholder: "Email@address.com", type: "email" },
+];
 
 function Contact() {
+    const { form, setForm } = useContext(FormContext);
 
-    // using context and hooks for form submission in case user clicks off the page
-    const { name, setName, subject, setSubject, email, setEmail, message, setMessage } = useContext(FormContext);
+    const updateField = (e) => setForm({ ...form, [e.target.id]: e.target.value });
 
     function handleFormSubmit(e) {
-
-        //prevents the page from refresh
         e.preventDefault();
 
-        //Creates a link that takes the form info from the state and prefills out an email message, waiting to be sent to me!
-        var link = "mailto:JordanT111596@gmail.com"
-            + "?subject=" + encodeURIComponent(subject)
-            + "&body=" + encodeURIComponent(message + "\n\nPlease contact me back via email at " + email + "\n\nThis message was sent from " + name + " using the React portfolio contact page!");
-        window.location.href = link;
+        // Opens the visitor's email client with the message prefilled, ready to send
+        const body = `${form.message}\n\nPlease contact me back via email at ${form.email}`
+            + `\n\nThis message was sent from ${form.name} using the portfolio contact page!`;
+        window.location.href = "mailto:JordanT111596@gmail.com"
+            + "?subject=" + encodeURIComponent(form.subject)
+            + "&body=" + encodeURIComponent(body);
     }
-
-    function resetForm(e) {
-        
-        //prevents the page from refresh
-        e.preventDefault();
-
-        //do the thing
-        setName('');
-        setSubject('');
-        setEmail('');
-        setMessage('');
-    }
-
 
     return (
-        // Grid Container
-        <div className="container w-auto full-page pb-5">
-            <div className="row w-auto">
-                <div className="col-1">
-                    {/* Empty Space */}
-                </div>
-                <div className="col-10 mt-5 card">
+        <div className="container pb-5">
+            <div className="row justify-content-center">
+                <div className="col-12 col-lg-10 mt-5 card">
                     <div className="card-body">
-                        {/* "Contact" titled */}
-                        <h1 className="text-primary text-center mb-3">
-                            Contact
-                        </h1>
+                        <h1 className="text-primary text-center mb-3">Contact</h1>
                         <form onSubmit={handleFormSubmit}>
-                            {/* A box to enter a name */}
-                            <div className="form-group my-4">
-                                <label htmlFor="Name">Name</label>
-                                <input className="form-control my-1" id="name" value={name} onChange={e => setName(e.target.value)}
-                                    placeholder="Name"></input>
-                            </div>
-                            {/* A box to enter a subject */}
-                            <div className="form-group my-4">
-                                <label htmlFor="Subject">Subject</label>
-                                <input className="form-control my-1" id="Subject" value={subject} onChange={e => setSubject(e.target.value)}
-                                    placeholder="Subject"></input>
-                            </div>
-                            {/* A box to enter an email address */}
-                            <div className="form-group my-4">
-                                <label htmlFor="Email">Email address</label>
-                                <input type="email" className="form-control my-1" id="email" placeholder="Email@address.com" value={email} onChange={e => setEmail(e.target.value)} />
-                            </div>
-                            {/* A box to enter a message */}
-                            <div className="form-group my-4">
-                                <label htmlFor="Message">Message</label>
-                                <textarea className="form-control my-1" id="message" rows="3" value={message} onChange={e => setMessage(e.target.value)}
-                                    placeholder="Message"></textarea>
-                            </div>
-                            <div className="row">
-                                <div className="col-12 col-md-4 col-lg-2 d-flex justify-content-between my-4">
-                                    {/* A button to submit the information */}
-                                    <button type="submit" className="btn btn-primary">Submit</button>
-                                    {/* A button to submit the information */}
-                                    <button type="button" className="btn btn-primary float-right" onClick={resetForm}>Clear</button>
+                            {fields.map(({ id, label, placeholder, type = "text" }) => (
+                                <div className="my-4" key={id}>
+                                    <label htmlFor={id} className="form-label">{label}</label>
+                                    <input type={type} className="form-control" id={id} placeholder={placeholder}
+                                        value={form[id]} onChange={updateField} required />
                                 </div>
+                            ))}
+                            <div className="my-4">
+                                <label htmlFor="message" className="form-label">Message</label>
+                                <textarea className="form-control" id="message" rows="3" placeholder="Message"
+                                    value={form.message} onChange={updateField} required />
+                            </div>
+                            <div className="d-flex gap-3 my-4">
+                                <button type="submit" className="btn btn-primary">Submit</button>
+                                <button type="button" className="btn btn-outline-primary" onClick={() => setForm(emptyForm)}>Clear</button>
                             </div>
                         </form>
                     </div>
-                </div>
-                <div className="col-1">
-                    {/* Blank Space */}
                 </div>
             </div>
         </div>

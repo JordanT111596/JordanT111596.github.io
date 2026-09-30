@@ -1,14 +1,10 @@
 import React from 'react';
 
+export const emptyForm = { name: "", subject: "", email: "", message: "" };
+
 const FormContext = React.createContext({
-  name: "",
-  setName: () => {},
-  subject: "",
-  setSubject: () => {},
-  email: "",
-  setEmail: () => {},
-  message: "",
-  setMessage: () => {}
+  form: emptyForm,
+  setForm: () => {}
 });
 
 export default FormContext;

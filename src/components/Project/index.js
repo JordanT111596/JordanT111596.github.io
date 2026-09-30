@@ -1,27 +1,33 @@
 import React from "react";
 
-// Each block has props passed in for each project in my portfolio
-function Project(props) {
+// Shows a demo video, an image, or (when neither exists) a titled tile
+function ProjectMedia({ name, video, image, alt }) {
+    if (video) {
+        return (
+            <video src={video} className="img-fluid rounded" autoPlay loop muted playsInline
+                aria-label={alt || `${name} demo`} />
+        );
+    }
+    if (image) {
+        return <img src={image} className="img-fluid rounded" alt={alt || `${name} demo`} loading="lazy" />;
+    }
+    return <div className="work-highlight p-3">{name}</div>;
+}
+
+function Project({ name, link, video, image, alt, desc, tech, repoLink }) {
+    const media = <ProjectMedia name={name} video={video} image={image} alt={alt} />;
+
     return (
         <div className="mb-5">
-            <h4>
-                {/* The name of the project is displayed at the top */}
-                {props.name}
-            </h4>
-            {/* The demo gif of the project which is a clickable hyperlink to the deployed project */}
-            <a href={props.deployLink} target="_blank" rel="noopener noreferrer">
-                <img src={props.image} className="img-fluid p-3" alt={props.alt} loading="lazy" />
-            </a>
-            <p>
-                {/* The description of each project is passed in as a prop */}
-                <b>Project Description:</b> {props.desc}
-            </p>
-            <p>
-                {/* The technology used in each project is passed in as a prop */}
-                <b>Technologies Used:</b> {props.tech}
-            </p>
-            {/* The link to the github repository is passed in to be a hyperlink */}
-            <a href={props.repoLink} target="_blank" rel="noopener noreferrer">{props.name} Github Repo</a>
+            <h4>{name}</h4>
+            <div className="p-3">
+                {link
+                    ? <a href={link} target="_blank" rel="noopener noreferrer" className="text-decoration-none">{media}</a>
+                    : media}
+            </div>
+            {desc && <p className="text-start"><b>Description:</b> {desc}</p>}
+            {tech && <p className="text-start"><b>Technologies Used:</b> {tech}</p>}
+            {repoLink && <a href={repoLink} target="_blank" rel="noopener noreferrer">{name} GitHub Repo</a>}
         </div>
     );
 }

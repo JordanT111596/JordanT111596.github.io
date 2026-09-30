@@ -1,7 +1,25 @@
 # Jordan Triplett's React Portfolio
-In this portfolio using React, you can view my name, a link to my GitHub profile, Linkedin Page, Email, and a link to a PDF of my resume! You can view repositories and deployed applications from my portfolio page along with a demo gif of how they work. Also included, you'll find some things I've worked on professionally at Union and Fluid Truck!
+
+My personal portfolio, built with React and Bootstrap. It has a short bio, my resume, links to my LinkedIn and GitHub, a contact form, and a portfolio of my work at Workday, Fluid Truck, and Union plus a few personal projects.
 
 This site can be found at https://jordant111596.github.io/
+
+## Running locally
+
+```bash
+npm install
+npm start
+```
+
+## Deploying
+
+The `develop` branch holds the source code. GitHub Pages serves the built site from the `gh-pages` branch.
+
+```bash
+npm run deploy
+```
+
+This builds the app and pushes the `build` folder to `gh-pages`. The build also copies `index.html` to `404.html`, so refreshing on a page like `/portfolio` still loads the app instead of a GitHub 404.
 
 ## Demo
 
