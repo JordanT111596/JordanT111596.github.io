@@ -2,7 +2,7 @@
 
 My personal portfolio, built with React, TypeScript, Vite, and Bootstrap. It has a short bio, my resume, links to my LinkedIn and GitHub, a contact form, and a portfolio of my work at Workday, Fluid Truck, and Union plus a few personal projects.
 
-This site can be found at https://jordant111596.github.io/
+This site can be found at https://jordantriplett.dev/
 
 ## Running locally
 
